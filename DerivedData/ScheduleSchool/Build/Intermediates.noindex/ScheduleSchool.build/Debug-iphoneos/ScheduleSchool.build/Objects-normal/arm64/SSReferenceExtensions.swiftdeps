@@ -1,0 +1,315 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "SS14ScheduleSchoolE16LocalizationKeysV"
+provides-member:
+- ["Sd", ""]
+- ["So21CAMediaTimingFunctionC", ""]
+- ["So7UIColorC", ""]
+- ["10Foundation3URLV", ""]
+- ["Sf", ""]
+- ["12CoreGraphics7CGFloatV", ""]
+- ["SS", ""]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", ""]
+- ["Sd", "ssDurationTransition"]
+- ["So21CAMediaTimingFunctionC", "ssEaseInOUT"]
+- ["So21CAMediaTimingFunctionC", "ssEaseINOut"]
+- ["So7UIColorC", "ssBackgroundDark"]
+- ["So7UIColorC", "ssBackgroundLight"]
+- ["So7UIColorC", "ssTextDark"]
+- ["So7UIColorC", "ssTextLight"]
+- ["10Foundation3URLV", "ssApplicationSupport"]
+- ["10Foundation3URLV", "ssUser"]
+- ["Sf", "ssControlStateNormalOpacity"]
+- ["Sf", "ssControlStateHighlightedOpacity"]
+- ["Sf", "ssControlStateDisabledOpacity"]
+- ["12CoreGraphics7CGFloatV", "ssTableViewCellHighlightAmount"]
+- ["12CoreGraphics7CGFloatV", "ssControlStateNormalOpacity"]
+- ["12CoreGraphics7CGFloatV", "ssControlStateHighlightedOpacity"]
+- ["12CoreGraphics7CGFloatV", "ssControlStateDisabledOpacity"]
+- ["SS", "LocalizationKeys"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CAMediaTimingFunction"
+- "CGFloat"
+- !private "FileManager"
+- "Float"
+- "SSColor"
+- "String"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "UIColor"
+- "URL"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- ["So21CAMediaTimingFunctionC", "CAMediaTimingFunction"]
+- !private ["So21CAMediaTimingFunctionC", "init"]
+- ["So21CAMediaTimingFunctionC", "ssEaseINOut"]
+- ["So21CAMediaTimingFunctionC", "ssEaseInOUT"]
+- ["12CoreGraphics7CGFloatV", "CGFloat"]
+- ["12CoreGraphics7CGFloatV", "ssControlStateDisabledOpacity"]
+- ["12CoreGraphics7CGFloatV", "ssControlStateHighlightedOpacity"]
+- ["12CoreGraphics7CGFloatV", "ssControlStateNormalOpacity"]
+- ["12CoreGraphics7CGFloatV", "ssTableViewCellHighlightAmount"]
+- !private ["s7CVarArgP", "CAMediaTimingFunction"]
+- !private ["s7CVarArgP", "SSColor"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CAMediaTimingFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "SSColor"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "ssApplicationSupport"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s29CustomPlaygroundQuickLookableP", "FileManager"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "ssApplicationSupport"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CAMediaTimingFunction"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "SSColor"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "ssApplicationSupport"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["s9DecodableP", "FileManager"]
+- !private ["s9DecodableP", "appendingPathComponent"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "ssApplicationSupport"]
+- ["Sd", "TimeInterval"]
+- ["Sd", "ssDurationTransition"]
+- !private ["s9EncodableP", "FileManager"]
+- !private ["s9EncodableP", "appendingPathComponent"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "ssApplicationSupport"]
+- !private ["s9EquatableP", "CAMediaTimingFunction"]
+- !private ["s9EquatableP", "FileManager"]
+- !private ["s9EquatableP", "SSColor"]
+- !private ["s9EquatableP", "appendingPathComponent"]
+- !private ["s9EquatableP", "applicationSupportDirectory"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "ssApplicationSupport"]
+- !private ["s9EquatableP", "urls"]
+- !private ["s9EquatableP", "userDomainMask"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So11FileManagerC", "default"]
+- !private ["So11FileManagerC", "urls"]
+- ["Sf", "Float"]
+- ["Sf", "ssControlStateDisabledOpacity"]
+- ["Sf", "ssControlStateHighlightedOpacity"]
+- ["Sf", "ssControlStateNormalOpacity"]
+- !private ["s8HashableP", "CAMediaTimingFunction"]
+- !private ["s8HashableP", "FileManager"]
+- !private ["s8HashableP", "SSColor"]
+- !private ["s8HashableP", "appendingPathComponent"]
+- !private ["s8HashableP", "applicationSupportDirectory"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "ssApplicationSupport"]
+- !private ["s8HashableP", "urls"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "String"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "classTypeCustomDescription"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "classTypeCustomRecommendation"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "classTypeCustomTitle"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "classTypeNumberedDescription"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "classTypeNumberedRecommendation"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "classTypeNumberedTitle"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "init"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "swipeInformerDown"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "swipeInformerLeft"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "swipeInformerRight"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "swipeInformerUp"]
+- ["SS14ScheduleSchoolE16LocalizationKeysV", "swipeInformerUpBegin"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["So8NSCodingP", "CAMediaTimingFunction"]
+- !private ["So8NSCodingP", "SSColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "SSColor"]
+- !private ["So21NSItemProviderReadingP", "SSColor"]
+- !private ["So21NSItemProviderWritingP", "SSColor"]
+- ["So8NSObjectC", "CAMediaTimingFunction"]
+- ["So8NSObjectC", "SSColor"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "ssBackgroundDark"]
+- ["So8NSObjectC", "ssBackgroundLight"]
+- ["So8NSObjectC", "ssEaseINOut"]
+- ["So8NSObjectC", "ssEaseInOUT"]
+- ["So8NSObjectC", "ssTextDark"]
+- ["So8NSObjectC", "ssTextLight"]
+- !private ["So8NSObjectC", "urls"]
+- !private ["So16NSObjectProtocolP", "CAMediaTimingFunction"]
+- !private ["So16NSObjectProtocolP", "SSColor"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "urls"]
+- !private ["So14NSSecureCodingP", "CAMediaTimingFunction"]
+- !private ["So14NSSecureCodingP", "SSColor"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "applicationSupportDirectory"]
+- !private ["s16RawRepresentableP", "userDomainMask"]
+- !private ["10Foundation20ReferenceConvertibleP", "FileManager"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "ssApplicationSupport"]
+- !private ["14ScheduleSchool7SSColorC", "init"]
+- !private ["So11FileManagerC19SearchPathDirectoryO", "applicationSupportDirectory"]
+- !private ["So11FileManagerC20SearchPathDomainMaskV", "userDomainMask"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- ["SS", "LocalizationKeys"]
+- ["SS", "String"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So7UIColorC", "SSColor"]
+- ["So7UIColorC", "ssBackgroundDark"]
+- ["So7UIColorC", "ssBackgroundLight"]
+- ["So7UIColorC", "ssTextDark"]
+- ["So7UIColorC", "ssTextLight"]
+- !private ["10Foundation3URLV", "FileManager"]
+- ["10Foundation3URLV", "URL"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- ["10Foundation3URLV", "ssApplicationSupport"]
+- ["10Foundation3URLV", "ssUser"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "SSColor"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "FileManager"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "ssApplicationSupport"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CAMediaTimingFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SSColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["s21_ObjectiveCBridgeableP", "FileManager"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "ssApplicationSupport"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "So21CAMediaTimingFunctionC"
+- "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "Sd"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11FileManagerC"
+- "Sf"
+- !private "s8HashableP"
+- "SS14ScheduleSchoolE16LocalizationKeysV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "14ScheduleSchool7SSColorC"
+- !private "So11FileManagerC19SearchPathDirectoryO"
+- !private "So11FileManagerC20SearchPathDomainMaskV"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So7UIColorC"
+- "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e5615fef9fcf93162fd838e977fb2869"

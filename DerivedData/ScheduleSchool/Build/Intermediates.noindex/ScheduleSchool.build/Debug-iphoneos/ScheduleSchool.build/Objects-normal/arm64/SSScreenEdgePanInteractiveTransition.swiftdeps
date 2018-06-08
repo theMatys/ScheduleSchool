@@ -1,0 +1,508 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSScreenEdgePanInteractiveTransition"
+provides-nominal:
+- "14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC"
+- "14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC20ProgressionDirectionO"
+provides-member:
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", ""]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC20ProgressionDirectionO", ""]
+provides-dynamic-lookup:
+- "cancel"
+- "finish"
+- "startInteractiveTransition"
+- "updateGestureRecognizer"
+depends-top-level:
+- !private "/"
+- !private "<?>"
+- "=="
+- !private ">="
+- "AssignmentPrecedence"
+- "CGFloat"
+- !private "CGPoint"
+- "SSPercentDrivenInteractiveTransition"
+- "SSScreenEdgePanInteractiveTransition"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UIScreenEdgePanGestureRecognizer"
+- !private "UIView"
+- "UIViewControllerContextTransitioning"
+- !private "||"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC7CGPointV", "y"]
+- !private ["SC7CGPointV", "zero"]
+- !private ["SC6CGRectV", "height"]
+- !private ["SC6CGRectV", "width"]
+- !private ["s7CVarArgP", "SSScreenEdgePanInteractiveTransition"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_gestureRecognizer"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_lastVelocity"]
+- !private ["s7CVarArgP", "_progressionDirection"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "finish"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "gestureRecognizer"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "percentComplete"]
+- !private ["s7CVarArgP", "progressionDirection"]
+- !private ["s7CVarArgP", "removeTarget"]
+- !private ["s7CVarArgP", "setTranslation"]
+- !private ["s7CVarArgP", "startInteractiveTransition"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "transitionContext"]
+- !private ["s7CVarArgP", "translation"]
+- !private ["s7CVarArgP", "update"]
+- !private ["s7CVarArgP", "updateGestureRecognizer"]
+- !private ["s7CVarArgP", "velocity"]
+- !private ["s28CustomDebugStringConvertibleP", "SSScreenEdgePanInteractiveTransition"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_gestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "_lastVelocity"]
+- !private ["s28CustomDebugStringConvertibleP", "_progressionDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "finish"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "gestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "percentComplete"]
+- !private ["s28CustomDebugStringConvertibleP", "progressionDirection"]
+- !private ["s28CustomDebugStringConvertibleP", "removeTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "setTranslation"]
+- !private ["s28CustomDebugStringConvertibleP", "startInteractiveTransition"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "transitionContext"]
+- !private ["s28CustomDebugStringConvertibleP", "translation"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s28CustomDebugStringConvertibleP", "updateGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "velocity"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "SSScreenEdgePanInteractiveTransition"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_gestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_lastVelocity"]
+- !private ["s23CustomStringConvertibleP", "_progressionDirection"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "finish"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "gestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "percentComplete"]
+- !private ["s23CustomStringConvertibleP", "progressionDirection"]
+- !private ["s23CustomStringConvertibleP", "removeTarget"]
+- !private ["s23CustomStringConvertibleP", "setTranslation"]
+- !private ["s23CustomStringConvertibleP", "startInteractiveTransition"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "transitionContext"]
+- !private ["s23CustomStringConvertibleP", "translation"]
+- !private ["s23CustomStringConvertibleP", "update"]
+- !private ["s23CustomStringConvertibleP", "updateGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "velocity"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9DecodableP", "y"]
+- !private ["s9DecodableP", "zero"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EncodableP", "y"]
+- !private ["s9EncodableP", "zero"]
+- !private ["s9EquatableP", "SSScreenEdgePanInteractiveTransition"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_gestureRecognizer"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_lastVelocity"]
+- !private ["s9EquatableP", "_progressionDirection"]
+- !private ["s9EquatableP", "addTarget"]
+- ["s9EquatableP", "began"]
+- !private ["s9EquatableP", "cancel"]
+- ["s9EquatableP", "cancelled"]
+- ["s9EquatableP", "changed"]
+- !private ["s9EquatableP", "duration"]
+- ["s9EquatableP", "ended"]
+- !private ["s9EquatableP", "finish"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "gestureRecognizer"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "horizontal"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "percentComplete"]
+- !private ["s9EquatableP", "progressionDirection"]
+- !private ["s9EquatableP", "removeTarget"]
+- !private ["s9EquatableP", "setTranslation"]
+- !private ["s9EquatableP", "startInteractiveTransition"]
+- !private ["s9EquatableP", "state"]
+- !private ["s9EquatableP", "transitionContext"]
+- !private ["s9EquatableP", "translation"]
+- !private ["s9EquatableP", "update"]
+- !private ["s9EquatableP", "updateGestureRecognizer"]
+- !private ["s9EquatableP", "velocity"]
+- !private ["s9EquatableP", "width"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- !private ["s9EquatableP", "zero"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "SSScreenEdgePanInteractiveTransition"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_gestureRecognizer"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_lastVelocity"]
+- !private ["s8HashableP", "_progressionDirection"]
+- !private ["s8HashableP", "addTarget"]
+- ["s8HashableP", "began"]
+- !private ["s8HashableP", "cancel"]
+- ["s8HashableP", "cancelled"]
+- ["s8HashableP", "changed"]
+- !private ["s8HashableP", "duration"]
+- ["s8HashableP", "ended"]
+- !private ["s8HashableP", "finish"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "gestureRecognizer"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "horizontal"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "percentComplete"]
+- !private ["s8HashableP", "progressionDirection"]
+- !private ["s8HashableP", "removeTarget"]
+- !private ["s8HashableP", "setTranslation"]
+- !private ["s8HashableP", "startInteractiveTransition"]
+- !private ["s8HashableP", "state"]
+- !private ["s8HashableP", "transitionContext"]
+- !private ["s8HashableP", "translation"]
+- !private ["s8HashableP", "update"]
+- !private ["s8HashableP", "updateGestureRecognizer"]
+- !private ["s8HashableP", "velocity"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "ProgressionDirection"]
+- !private ["So8NSObjectC", "SSScreenEdgePanInteractiveTransition"]
+- ["So8NSObjectC", "UIScreenEdgePanGestureRecognizer"]
+- !private ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "UIViewControllerContextTransitioning"]
+- ["So8NSObjectC", "_gestureRecognizer"]
+- ["So8NSObjectC", "_lastVelocity"]
+- ["So8NSObjectC", "_progressionDirection"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "duration"]
+- ["So8NSObjectC", "finish"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "gestureRecognizer"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lastVelocity"]
+- !private ["So8NSObjectC", "percentComplete"]
+- ["So8NSObjectC", "progressionDirection"]
+- !private ["So8NSObjectC", "removeTarget"]
+- !private ["So8NSObjectC", "setTranslation"]
+- ["So8NSObjectC", "startInteractiveTransition"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "transitionContext"]
+- !private ["So8NSObjectC", "translation"]
+- !private ["So8NSObjectC", "update"]
+- ["So8NSObjectC", "updateGestureRecognizer"]
+- !private ["So8NSObjectC", "velocity"]
+- !private ["So16NSObjectProtocolP", "SSScreenEdgePanInteractiveTransition"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_gestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "_lastVelocity"]
+- !private ["So16NSObjectProtocolP", "_progressionDirection"]
+- !private ["So16NSObjectProtocolP", "addTarget"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "containerView"]
+- !private ["So16NSObjectProtocolP", "duration"]
+- !private ["So16NSObjectProtocolP", "finish"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "gestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "percentComplete"]
+- !private ["So16NSObjectProtocolP", "progressionDirection"]
+- !private ["So16NSObjectProtocolP", "removeTarget"]
+- !private ["So16NSObjectProtocolP", "setTranslation"]
+- !private ["So16NSObjectProtocolP", "startInteractiveTransition"]
+- !private ["So16NSObjectProtocolP", "state"]
+- !private ["So16NSObjectProtocolP", "transitionContext"]
+- !private ["So16NSObjectProtocolP", "translation"]
+- !private ["So16NSObjectProtocolP", "update"]
+- !private ["So16NSObjectProtocolP", "updateGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "velocity"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC20ProgressionDirectionO", "__derived_enum_equals"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC20ProgressionDirectionO", "deinit"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC20ProgressionDirectionO", "hashValue"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC20ProgressionDirectionO", "horizontal"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC20ProgressionDirectionO", "vertical"]
+- ["s16RawRepresentableP", "began"]
+- ["s16RawRepresentableP", "cancelled"]
+- ["s16RawRepresentableP", "changed"]
+- ["s16RawRepresentableP", "ended"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "CGFloat"]
+- !private ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "CGPoint"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "ProgressionDirection"]
+- !private ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "SSScreenEdgePanInteractiveTransition"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "UIScreenEdgePanGestureRecognizer"]
+- !private ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "UIView"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "UIViewControllerContextTransitioning"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", ""]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "_gestureRecognizer"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "_lastVelocity"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "_progressionDirection"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "cancel"]
+- !private ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "deinit"]
+- !private ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "duration"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "finish"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "gestureRecognizer"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "init"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "lastVelocity"]
+- !private ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "percentComplete"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "progressionDirection"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "startInteractiveTransition"]
+- !private ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "transitionContext"]
+- !private ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "update"]
+- ["14ScheduleSchool36SSPercentDrivenInteractiveTransitionC", "updateGestureRecognizer"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "CGFloat"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "CGPoint"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "ProgressionDirection"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "SSScreenEdgePanInteractiveTransition"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "UIScreenEdgePanGestureRecognizer"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "UIView"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "UIViewControllerContextTransitioning"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "_gestureRecognizer"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "_lastVelocity"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "_progressionDirection"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "cancel"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "deinit"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "duration"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "finish"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "gestureRecognizer"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "init"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "lastVelocity"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "percentComplete"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "progressionDirection"]
+- ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "startInteractiveTransition"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "transitionContext"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "update"]
+- !private ["14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC", "updateGestureRecognizer"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So19UIGestureRecognizerC", "addTarget"]
+- !private ["So19UIGestureRecognizerC", "removeTarget"]
+- !private ["So19UIGestureRecognizerC", "setTranslation"]
+- !private ["So19UIGestureRecognizerC", "state"]
+- !private ["So19UIGestureRecognizerC", "translation"]
+- !private ["So19UIGestureRecognizerC", "velocity"]
+- ["SC24UIGestureRecognizerStateO", "began"]
+- ["SC24UIGestureRecognizerStateO", "cancelled"]
+- ["SC24UIGestureRecognizerStateO", "changed"]
+- ["SC24UIGestureRecognizerStateO", "ended"]
+- !private ["So22UIPanGestureRecognizerC", "addTarget"]
+- !private ["So22UIPanGestureRecognizerC", "removeTarget"]
+- !private ["So22UIPanGestureRecognizerC", "setTranslation"]
+- !private ["So22UIPanGestureRecognizerC", "state"]
+- !private ["So22UIPanGestureRecognizerC", "translation"]
+- !private ["So22UIPanGestureRecognizerC", "velocity"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "CGFloat"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "CGPoint"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "ProgressionDirection"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "SSScreenEdgePanInteractiveTransition"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "UIScreenEdgePanGestureRecognizer"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "UIView"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "UIViewControllerContextTransitioning"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "_gestureRecognizer"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "_lastVelocity"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "_progressionDirection"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "cancel"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "duration"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "finish"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "gestureRecognizer"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "init"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "lastVelocity"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "percentComplete"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "progressionDirection"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "startInteractiveTransition"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "transitionContext"]
+- !private ["So36UIPercentDrivenInteractiveTransitionC", "update"]
+- ["So36UIPercentDrivenInteractiveTransitionC", "updateGestureRecognizer"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So32UIScreenEdgePanGestureRecognizerC", "addTarget"]
+- !private ["So32UIScreenEdgePanGestureRecognizerC", "removeTarget"]
+- !private ["So32UIScreenEdgePanGestureRecognizerC", "setTranslation"]
+- !private ["So32UIScreenEdgePanGestureRecognizerC", "state"]
+- !private ["So32UIScreenEdgePanGestureRecognizerC", "translation"]
+- !private ["So32UIScreenEdgePanGestureRecognizerC", "velocity"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So36UIViewControllerContextTransitioningP", "containerView"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "SSScreenEdgePanInteractiveTransition"]
+- ["So40UIViewControllerInteractiveTransitioningP", ""]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "_gestureRecognizer"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "_lastVelocity"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "_progressionDirection"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "cancel"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "duration"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "finish"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "gestureRecognizer"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "init"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "percentComplete"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "progressionDirection"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "startInteractiveTransition"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "transitionContext"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "update"]
+- !private ["So40UIViewControllerInteractiveTransitioningP", "updateGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SSScreenEdgePanInteractiveTransition"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_gestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_lastVelocity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_progressionDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "percentComplete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "progressionDirection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTranslation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startInteractiveTransition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transitionContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "velocity"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC20ProgressionDirectionO"
+- "s16RawRepresentableP"
+- "14ScheduleSchool36SSPercentDrivenInteractiveTransitionC"
+- "14ScheduleSchool36SSScreenEdgePanInteractiveTransitionC"
+- !private "s12StaticStringV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- "SC24UIGestureRecognizerStateO"
+- !private "So22UIPanGestureRecognizerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So36UIPercentDrivenInteractiveTransitionC"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So32UIScreenEdgePanGestureRecognizerC"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So36UIViewControllerContextTransitioningP"
+- "So40UIViewControllerInteractiveTransitioningP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a28c2485027279031c74814989938a1d"

@@ -1,0 +1,116 @@
+
+/**************** WELCOME SCENE ****************/
+
+/* Title */
+"GEg-hd-aNo.text" = "Welcome.";
+
+/* Welcome Message */
+"HnT-dm-Gbo.text" = "Welcome to Schedule School, your all-in-one school companion. There are a couple of things we need to set up before you can use the application. \n\nLet’s not waste any more time and dive right in!";
+
+
+/**************** PROFILE SCENE ****************/
+
+/* Title */
+"JPb-cO-2sL.text" = "Your profile";
+
+/* Description */
+"ZbX-tY-JEh.text" = "Enter your first and last name. You can also set a profile picture if you’d like to.";
+
+/* Profile Picture Hint */
+"xxa-gX-1zv.text" = "Tap the button below to add a profile picture.";
+
+/* Profile Picture Button Title */
+"FMi-fd-1d0.normalTitle" = "Add profile picture";
+
+
+/**************** TIMETABLE SCENE ****************/
+
+/* Title */
+"HG8-eS-Y3h.text" = "Your timetable.";
+
+/* Message */
+"afv-F4-l09.text" = "It is essential for all kinds of scheduling to have a framework to adapt to. In our case, this framework is your timetable.\n\nThe next couple of steps will set up your timetable.";
+
+
+/**************** TIMETABLE - MONDAY SCENE ****************/
+
+/* Title */
+"n5g-PR-xlO.text" = "Monday";
+
+/* Description */
+"Z65-gn-ngU.text" = "What classes do you start off your week with?";
+
+/* Class Button Title */
+"Shp-6x-mMX.normalTitle" = "Add class";
+
+
+/**************** TIMETABLE - TUESDAY SCENE ****************/
+
+/* Title */
+"pAN-5n-i4a.text" = "Tuesday";
+
+/* Description */
+"Xxg-5v-TuK.text" = "How about the follow-ups on Tuesday?";
+
+/* Class Button Title */
+"nDM-wH-zWm.normalTitle" = "Add class";
+
+
+/**************** TIMETABLE - WEDNESDAY SCENE ****************/
+
+/* Title */
+"QYs-BU-7O3.text" = "Wednesday";
+
+/* Description */
+"2J2-jF-NeY.text" = "The massive mid-week ones?";
+
+/* Class Button Title */
+"kgj-Z3-2MX.normalTitle" = "Add class";
+
+
+/**************** TIMETABLE - THURSDAY SCENE ****************/
+
+/* Title */
+"Jo4-LY-OSO.text" = "Thursday";
+
+/* Description */
+"d9S-IL-Nws.text" = "How about the \"Bear with it, it's almost Friday\" day?";
+
+/* Class Button Title */
+"yPM-by-t10.normalTitle" = "Add class";
+
+
+/**************** TIMETABLE - FRIDAY SCENE ****************/
+
+/* Title */
+"H2j-3d-VdH.text" = "Friday";
+
+/* Description */
+"K8L-1o-o3Z.text" = "Yaaaay, finally!!! It’s the end of the week!!";
+
+/* Class Button Title */
+"pMq-Mf-hW5.normalTitle" = "Add class";
+
+
+/**************** TIMETABLE - SATURDAY SCENE ****************/
+
+/* Title */
+"vjT-KF-q3M.text" = "Saturday";
+
+/* Description */
+"c5L-tp-bbr.text" = "…or not if you have classes on Saturday.";
+
+/* Class Button Title */
+"mOu-Ad-9RJ.normalTitle" = "Add class";
+
+
+/**************** TIMETABLE - SUNDAY SCENE ****************/
+
+/* Title */
+"RWR-Ma-YAI.text" = "Sunday";
+
+/* Description */
+"CLr-cK-lHP.text" = "…and especially not if there are ones on Sunday.";
+
+/* Class Button Title */
+"o8x-2O-K7M.normalTitle" = "Add class";

@@ -1,0 +1,461 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSNavigationBar"
+- "SSNavigationBarStyle"
+provides-nominal:
+- "14ScheduleSchool15SSNavigationBarC"
+- "14ScheduleSchool20SSNavigationBarStyleO"
+provides-member:
+- ["14ScheduleSchool15SSNavigationBarC", ""]
+- ["14ScheduleSchool20SSNavigationBarStyleO", ""]
+provides-dynamic-lookup:
+- "_style"
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "<?>"
+- "=="
+- "AssignmentPrecedence"
+- "Int"
+- "SSNavigationBar"
+- "SSNavigationBarStyle"
+- !private "UIColor"
+- !private "UIImage"
+- "UINavigationBar"
+- !private "~="
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "SSNavigationBarStyle"]
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "UIImage"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "_style"]
+- !private ["So15CALayerDelegateP", "barTintColor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "setBackgroundImage"]
+- !private ["So15CALayerDelegateP", "shadowImage"]
+- !private ["So15CALayerDelegateP", "style"]
+- !private ["So15CALayerDelegateP", "updateStyle"]
+- !private ["s7CVarArgP", "SSNavigationBarStyle"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIImage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_style"]
+- !private ["s7CVarArgP", "barTintColor"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setBackgroundImage"]
+- !private ["s7CVarArgP", "shadowImage"]
+- !private ["s7CVarArgP", "style"]
+- !private ["s7CVarArgP", "updateStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "SSNavigationBarStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_style"]
+- !private ["s28CustomDebugStringConvertibleP", "barTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setBackgroundImage"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowImage"]
+- !private ["s28CustomDebugStringConvertibleP", "style"]
+- !private ["s28CustomDebugStringConvertibleP", "updateStyle"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "SSNavigationBarStyle"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_style"]
+- !private ["s23CustomStringConvertibleP", "barTintColor"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setBackgroundImage"]
+- !private ["s23CustomStringConvertibleP", "shadowImage"]
+- !private ["s23CustomStringConvertibleP", "style"]
+- !private ["s23CustomStringConvertibleP", "updateStyle"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "SSNavigationBarStyle"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "UIImage"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_style"]
+- !private ["s9EquatableP", "barTintColor"]
+- !private ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "default"]
+- ["s9EquatableP", "firstLaunch"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "setBackgroundImage"]
+- !private ["s9EquatableP", "shadowImage"]
+- !private ["s9EquatableP", "style"]
+- ["s9EquatableP", "system"]
+- !private ["s9EquatableP", "updateStyle"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "SSNavigationBarStyle"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "UIImage"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_style"]
+- !private ["s8HashableP", "barTintColor"]
+- !private ["s8HashableP", "clear"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "default"]
+- ["s8HashableP", "firstLaunch"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "setBackgroundImage"]
+- !private ["s8HashableP", "shadowImage"]
+- !private ["s8HashableP", "style"]
+- ["s8HashableP", "system"]
+- !private ["s8HashableP", "updateStyle"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "SSNavigationBarStyle"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "UIImage"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "_style"]
+- !private ["So8NSCodingP", "barTintColor"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setBackgroundImage"]
+- !private ["So8NSCodingP", "shadowImage"]
+- !private ["So8NSCodingP", "style"]
+- !private ["So8NSCodingP", "updateStyle"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "SSNavigationBarStyle"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "_style"]
+- !private ["So8NSObjectC", "barTintColor"]
+- !private ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "setBackgroundImage"]
+- !private ["So8NSObjectC", "shadowImage"]
+- ["So8NSObjectC", "style"]
+- ["So8NSObjectC", "updateStyle"]
+- !private ["So16NSObjectProtocolP", "SSNavigationBarStyle"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_style"]
+- !private ["So16NSObjectProtocolP", "barTintColor"]
+- !private ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setBackgroundImage"]
+- !private ["So16NSObjectProtocolP", "shadowImage"]
+- !private ["So16NSObjectProtocolP", "style"]
+- !private ["So16NSObjectProtocolP", "updateStyle"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "count"]
+- !private ["s16RawRepresentableP", "default"]
+- ["s16RawRepresentableP", "firstLaunch"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "system"]
+- ["14ScheduleSchool15SSNavigationBarC", "Int"]
+- ["14ScheduleSchool15SSNavigationBarC", "SSNavigationBarStyle"]
+- !private ["14ScheduleSchool15SSNavigationBarC", "UIColor"]
+- !private ["14ScheduleSchool15SSNavigationBarC", "UIImage"]
+- ["14ScheduleSchool15SSNavigationBarC", "_style"]
+- !private ["14ScheduleSchool15SSNavigationBarC", "barTintColor"]
+- ["14ScheduleSchool15SSNavigationBarC", "deinit"]
+- ["14ScheduleSchool15SSNavigationBarC", "init"]
+- !private ["14ScheduleSchool15SSNavigationBarC", "setBackgroundImage"]
+- !private ["14ScheduleSchool15SSNavigationBarC", "shadowImage"]
+- !private ["14ScheduleSchool15SSNavigationBarC", "style"]
+- !private ["14ScheduleSchool15SSNavigationBarC", "updateStyle"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "Int"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "RawValue"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "_Default_RawValue"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "count"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "deinit"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "firstLaunch"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "hashValue"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "init"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "rawValue"]
+- ["14ScheduleSchool20SSNavigationBarStyleO", "system"]
+- !private ["So29UIAccessibilityIdentificationP", "SSNavigationBarStyle"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "_style"]
+- !private ["So29UIAccessibilityIdentificationP", "barTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setBackgroundImage"]
+- !private ["So29UIAccessibilityIdentificationP", "shadowImage"]
+- !private ["So29UIAccessibilityIdentificationP", "style"]
+- !private ["So29UIAccessibilityIdentificationP", "updateStyle"]
+- !private ["So12UIAppearanceP", "SSNavigationBarStyle"]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "_style"]
+- !private ["So12UIAppearanceP", "barTintColor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "setBackgroundImage"]
+- !private ["So12UIAppearanceP", "shadowImage"]
+- !private ["So12UIAppearanceP", "style"]
+- !private ["So12UIAppearanceP", "updateStyle"]
+- !private ["So21UIAppearanceContainerP", "SSNavigationBarStyle"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "_style"]
+- !private ["So21UIAppearanceContainerP", "barTintColor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setBackgroundImage"]
+- !private ["So21UIAppearanceContainerP", "shadowImage"]
+- !private ["So21UIAppearanceContainerP", "style"]
+- !private ["So21UIAppearanceContainerP", "updateStyle"]
+- !private ["SC12UIBarMetricsO", "default"]
+- !private ["So16UIBarPositioningP", "SSNavigationBarStyle"]
+- !private ["So16UIBarPositioningP", "UIColor"]
+- !private ["So16UIBarPositioningP", "UIImage"]
+- ["So16UIBarPositioningP", ""]
+- !private ["So16UIBarPositioningP", "_style"]
+- !private ["So16UIBarPositioningP", "barTintColor"]
+- !private ["So16UIBarPositioningP", "init"]
+- !private ["So16UIBarPositioningP", "setBackgroundImage"]
+- !private ["So16UIBarPositioningP", "shadowImage"]
+- !private ["So16UIBarPositioningP", "style"]
+- !private ["So16UIBarPositioningP", "updateStyle"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So17UICoordinateSpaceP", "SSNavigationBarStyle"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "_style"]
+- !private ["So17UICoordinateSpaceP", "barTintColor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "setBackgroundImage"]
+- !private ["So17UICoordinateSpaceP", "shadowImage"]
+- !private ["So17UICoordinateSpaceP", "style"]
+- !private ["So17UICoordinateSpaceP", "updateStyle"]
+- !private ["So13UIDynamicItemP", "SSNavigationBarStyle"]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "_style"]
+- !private ["So13UIDynamicItemP", "barTintColor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "setBackgroundImage"]
+- !private ["So13UIDynamicItemP", "shadowImage"]
+- !private ["So13UIDynamicItemP", "style"]
+- !private ["So13UIDynamicItemP", "updateStyle"]
+- !private ["So18UIFocusEnvironmentP", "SSNavigationBarStyle"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "_style"]
+- !private ["So18UIFocusEnvironmentP", "barTintColor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setBackgroundImage"]
+- !private ["So18UIFocusEnvironmentP", "shadowImage"]
+- !private ["So18UIFocusEnvironmentP", "style"]
+- !private ["So18UIFocusEnvironmentP", "updateStyle"]
+- !private ["So11UIFocusItemP", "SSNavigationBarStyle"]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "_style"]
+- !private ["So11UIFocusItemP", "barTintColor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "setBackgroundImage"]
+- !private ["So11UIFocusItemP", "shadowImage"]
+- !private ["So11UIFocusItemP", "style"]
+- !private ["So11UIFocusItemP", "updateStyle"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- ["So15UINavigationBarC", "Int"]
+- ["So15UINavigationBarC", "SSNavigationBarStyle"]
+- !private ["So15UINavigationBarC", "UIColor"]
+- !private ["So15UINavigationBarC", "UIImage"]
+- ["So15UINavigationBarC", ""]
+- ["So15UINavigationBarC", "_style"]
+- !private ["So15UINavigationBarC", "barTintColor"]
+- ["So15UINavigationBarC", "init"]
+- !private ["So15UINavigationBarC", "setBackgroundImage"]
+- !private ["So15UINavigationBarC", "shadowImage"]
+- ["So15UINavigationBarC", "style"]
+- ["So15UINavigationBarC", "updateStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "SSNavigationBarStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "_style"]
+- !private ["So30UIPasteConfigurationSupportingP", "barTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setBackgroundImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "shadowImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "style"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateStyle"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "SSNavigationBarStyle"]
+- !private ["So11UIResponderC", "UIColor"]
+- !private ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "_style"]
+- !private ["So11UIResponderC", "barTintColor"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "setBackgroundImage"]
+- !private ["So11UIResponderC", "shadowImage"]
+- ["So11UIResponderC", "style"]
+- ["So11UIResponderC", "updateStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "SSNavigationBarStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "_style"]
+- !private ["So30UIResponderStandardEditActionsP", "barTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setBackgroundImage"]
+- !private ["So30UIResponderStandardEditActionsP", "shadowImage"]
+- !private ["So30UIResponderStandardEditActionsP", "style"]
+- !private ["So30UIResponderStandardEditActionsP", "updateStyle"]
+- !private ["So18UITraitEnvironmentP", "SSNavigationBarStyle"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "_style"]
+- !private ["So18UITraitEnvironmentP", "barTintColor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setBackgroundImage"]
+- !private ["So18UITraitEnvironmentP", "shadowImage"]
+- !private ["So18UITraitEnvironmentP", "style"]
+- !private ["So18UITraitEnvironmentP", "updateStyle"]
+- ["So6UIViewC", "Int"]
+- ["So6UIViewC", "SSNavigationBarStyle"]
+- !private ["So6UIViewC", "UIColor"]
+- !private ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", "_style"]
+- !private ["So6UIViewC", "barTintColor"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "setBackgroundImage"]
+- !private ["So6UIViewC", "shadowImage"]
+- ["So6UIViewC", "style"]
+- ["So6UIViewC", "updateStyle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "SSNavigationBarStyle"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "_style"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "barTintColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setBackgroundImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "shadowImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "style"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateStyle"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SSNavigationBarStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setBackgroundImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateStyle"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "s16RawRepresentableP"
+- "14ScheduleSchool15SSNavigationBarC"
+- "14ScheduleSchool20SSNavigationBarStyleO"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "SC12UIBarMetricsO"
+- "So16UIBarPositioningP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So15UINavigationBarC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "3d46ecc495ed39307bd1d007e3901276"

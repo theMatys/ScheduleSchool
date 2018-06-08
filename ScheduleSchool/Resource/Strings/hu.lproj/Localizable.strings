@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  ScheduleSchool
+
+  Created by Máté on 2018. 05. 25..
+  Copyright © 2018. theMatys. All rights reserved.
+*/
+
+/*************** GENERAL ***************/
+"ss_string_yes" = "Igen";
+"ss_string_no" = "Nem";
+"ss_string_next" = "Következő";
+"ss_string_first_name" = "Keresztnév";
+"ss_string_last_name" = "Vezetéknév";
+
+/*************** DAYS ***************/
+"ss_string_monday" = "Hétfő";
+"ss_string_tuesday" = "Kedd";
+"ss_string_wednesday" = "Szerda";
+"ss_string_thursday" = "Csütörtök";
+"ss_string_friday" = "Péntek";
+"ss_string_saturday" = "Szombat";
+"ss_string_sunday" = "Vasárnap";
+
+/*************** SWIPE INFORMER ***************/
+"ss_string_swipe_informer_up" = "Legyints felfelé a folytatáshoz.";
+"ss_string_swipe_informer_up_begin" = "Legyints felfelé a kezdéshez.";
+"ss_string_swipe_informer_down" = "Legyints lefelé a folytatáshoz.";
+"ss_string_swipe_informer_left" = "Legyints balra a folytatáshoz.";
+"ss_string_swipe_informer_right" = "Legyints jobbra a visszaugráshoz.";

@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  ScheduleSchool
+
+  Created by Máté on 2018. 05. 25..
+  Copyright © 2018. theMatys. All rights reserved.
+*/
+
+/*************** GENERAL ***************/
+"ss_string_yes" = "Yes";
+"ss_string_no" = "No";
+"ss_string_next" = "Next";
+"ss_string_first_name" = "First name";
+"ss_string_last_name" = "Last name";
+
+/*************** DAYS ***************/
+"ss_string_monday" = "Monday";
+"ss_string_tuesday" = "Tuesday";
+"ss_string_wednesday" = "Wednesday";
+"ss_string_thursday" = "Thursday";
+"ss_string_friday" = "Friday";
+"ss_string_saturday" = "Saturday";
+"ss_string_sunday" = "Sunday";
+
+/*************** SWIPE INFORMER ***************/
+"ss_string_swipe_informer_up" = "Swipe up to continue.";
+"ss_string_swipe_informer_up_begin" = "Swipe up to begin.";
+"ss_string_swipe_informer_down" = "Swipe down to continue.";
+"ss_string_swipe_informer_left" = "Swipe left to continue.";
+"ss_string_swipe_informer_right" = "Swipe right to go back.";

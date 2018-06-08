@@ -1,0 +1,418 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSDelayedViewPropertyAnimator"
+provides-nominal:
+- "14ScheduleSchool29SSDelayedViewPropertyAnimatorC"
+provides-member:
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "/"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "SSCubicTimingCurve"
+- "SSDelayedViewPropertyAnimator"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "UICubicTimingParameters"
+- "UITimingCurveProvider"
+- "UIView"
+- "UIViewPropertyAnimator"
+- !private "fatalError"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "enumerated"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "TimeInterval"]
+- ["s7CVarArgP", "UICubicTimingParameters"]
+- ["s7CVarArgP", "UIView"]
+- !private ["s7CVarArgP", "UIViewPropertyAnimator"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAnimations"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "createAnimations"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "individualAnimations"]
+- !private ["s7CVarArgP", "individualDelay"]
+- !private ["s7CVarArgP", "individualDuration"]
+- !private ["s7CVarArgP", "individualTimingParameters"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "views"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "enumerated"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- ["s28CustomDebugStringConvertibleP", "UICubicTimingParameters"]
+- ["s28CustomDebugStringConvertibleP", "UIView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIViewPropertyAnimator"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAnimations"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "createAnimations"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "individualAnimations"]
+- !private ["s28CustomDebugStringConvertibleP", "individualDelay"]
+- !private ["s28CustomDebugStringConvertibleP", "individualDuration"]
+- !private ["s28CustomDebugStringConvertibleP", "individualTimingParameters"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "views"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- ["s23CustomStringConvertibleP", "UICubicTimingParameters"]
+- ["s23CustomStringConvertibleP", "UIView"]
+- !private ["s23CustomStringConvertibleP", "UIViewPropertyAnimator"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAnimations"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createAnimations"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "individualAnimations"]
+- !private ["s23CustomStringConvertibleP", "individualDelay"]
+- !private ["s23CustomStringConvertibleP", "individualDuration"]
+- !private ["s23CustomStringConvertibleP", "individualTimingParameters"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "views"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "enumerated"]
+- ["s9DecodableP", "init"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "enumerated"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CGFloat"]
+- !private ["s9EquatableP", "TimeInterval"]
+- ["s9EquatableP", "UICubicTimingParameters"]
+- ["s9EquatableP", "UIView"]
+- !private ["s9EquatableP", "UIViewPropertyAnimator"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "addAnimations"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "createAnimations"]
+- !private ["s9EquatableP", "duration"]
+- !private ["s9EquatableP", "enumerated"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "individualAnimations"]
+- !private ["s9EquatableP", "individualDelay"]
+- !private ["s9EquatableP", "individualDuration"]
+- !private ["s9EquatableP", "individualTimingParameters"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "linear"]
+- !private ["s9EquatableP", "views"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "CGFloat"]
+- !private ["s8HashableP", "TimeInterval"]
+- ["s8HashableP", "UICubicTimingParameters"]
+- ["s8HashableP", "UIView"]
+- !private ["s8HashableP", "UIViewPropertyAnimator"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "addAnimations"]
+- !private ["s8HashableP", "createAnimations"]
+- !private ["s8HashableP", "duration"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "individualAnimations"]
+- !private ["s8HashableP", "individualDelay"]
+- !private ["s8HashableP", "individualDuration"]
+- !private ["s8HashableP", "individualTimingParameters"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "linear"]
+- !private ["s8HashableP", "views"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "enumerated"]
+- ["s17MutableCollectionP", "init"]
+- ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "CGFloat"]
+- !private ["So9NSCopyingP", "TimeInterval"]
+- ["So9NSCopyingP", "UICubicTimingParameters"]
+- ["So9NSCopyingP", "UIView"]
+- !private ["So9NSCopyingP", "UIViewPropertyAnimator"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "addAnimations"]
+- !private ["So9NSCopyingP", "createAnimations"]
+- !private ["So9NSCopyingP", "duration"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "individualAnimations"]
+- !private ["So9NSCopyingP", "individualDelay"]
+- !private ["So9NSCopyingP", "individualDuration"]
+- !private ["So9NSCopyingP", "individualTimingParameters"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "views"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "SSCubicTimingCurve"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "UICubicTimingParameters"]
+- ["So8NSObjectC", "UITimingCurveProvider"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "UIViewPropertyAnimator"]
+- !private ["So8NSObjectC", "addAnimations"]
+- ["So8NSObjectC", "createAnimations"]
+- !private ["So8NSObjectC", "duration"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "individualAnimations"]
+- ["So8NSObjectC", "individualDelay"]
+- ["So8NSObjectC", "individualDuration"]
+- ["So8NSObjectC", "individualTimingParameters"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "views"]
+- !private ["So16NSObjectProtocolP", "CGFloat"]
+- !private ["So16NSObjectProtocolP", "TimeInterval"]
+- ["So16NSObjectProtocolP", "UICubicTimingParameters"]
+- ["So16NSObjectProtocolP", "UIView"]
+- !private ["So16NSObjectProtocolP", "UIViewPropertyAnimator"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addAnimations"]
+- !private ["So16NSObjectProtocolP", "createAnimations"]
+- !private ["So16NSObjectProtocolP", "duration"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "individualAnimations"]
+- !private ["So16NSObjectProtocolP", "individualDelay"]
+- !private ["So16NSObjectProtocolP", "individualDuration"]
+- !private ["So16NSObjectProtocolP", "individualTimingParameters"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "views"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "enumerated"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "enumerated"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "linear"]
+- !private ["14ScheduleSchool18SSCubicTimingCurveC", "uiCubicTimingParameters"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "CGFloat"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "SSCubicTimingCurve"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "TimeInterval"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "UICubicTimingParameters"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "UITimingCurveProvider"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "UIView"]
+- !private ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "UIViewPropertyAnimator"]
+- !private ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "addAnimations"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "createAnimations"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "deinit"]
+- !private ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "duration"]
+- !private ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "fatalError"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "individualAnimations"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "individualDelay"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "individualDuration"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "individualTimingParameters"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "init"]
+- ["14ScheduleSchool29SSDelayedViewPropertyAnimatorC", "views"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "enumerated"]
+- ["s8SequenceP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So23UICubicTimingParametersC", "init"]
+- ["So21UITimingCurveProviderP", "init"]
+- !private ["So15UIViewAnimatingP", "CGFloat"]
+- !private ["So15UIViewAnimatingP", "TimeInterval"]
+- ["So15UIViewAnimatingP", "UICubicTimingParameters"]
+- ["So15UIViewAnimatingP", "UIView"]
+- !private ["So15UIViewAnimatingP", "UIViewPropertyAnimator"]
+- ["So15UIViewAnimatingP", ""]
+- !private ["So15UIViewAnimatingP", "addAnimations"]
+- !private ["So15UIViewAnimatingP", "createAnimations"]
+- !private ["So15UIViewAnimatingP", "duration"]
+- !private ["So15UIViewAnimatingP", "fatalError"]
+- !private ["So15UIViewAnimatingP", "individualAnimations"]
+- !private ["So15UIViewAnimatingP", "individualDelay"]
+- !private ["So15UIViewAnimatingP", "individualDuration"]
+- !private ["So15UIViewAnimatingP", "individualTimingParameters"]
+- !private ["So15UIViewAnimatingP", "init"]
+- !private ["So15UIViewAnimatingP", "views"]
+- ["SC20UIViewAnimationCurveO", "linear"]
+- !private ["So25UIViewImplicitlyAnimatingP", "CGFloat"]
+- !private ["So25UIViewImplicitlyAnimatingP", "TimeInterval"]
+- ["So25UIViewImplicitlyAnimatingP", "UICubicTimingParameters"]
+- ["So25UIViewImplicitlyAnimatingP", "UIView"]
+- !private ["So25UIViewImplicitlyAnimatingP", "UIViewPropertyAnimator"]
+- ["So25UIViewImplicitlyAnimatingP", ""]
+- !private ["So25UIViewImplicitlyAnimatingP", "addAnimations"]
+- !private ["So25UIViewImplicitlyAnimatingP", "createAnimations"]
+- !private ["So25UIViewImplicitlyAnimatingP", "duration"]
+- !private ["So25UIViewImplicitlyAnimatingP", "fatalError"]
+- !private ["So25UIViewImplicitlyAnimatingP", "individualAnimations"]
+- !private ["So25UIViewImplicitlyAnimatingP", "individualDelay"]
+- !private ["So25UIViewImplicitlyAnimatingP", "individualDuration"]
+- !private ["So25UIViewImplicitlyAnimatingP", "individualTimingParameters"]
+- !private ["So25UIViewImplicitlyAnimatingP", "init"]
+- !private ["So25UIViewImplicitlyAnimatingP", "views"]
+- ["So22UIViewPropertyAnimatorC", "CGFloat"]
+- ["So22UIViewPropertyAnimatorC", "SSCubicTimingCurve"]
+- ["So22UIViewPropertyAnimatorC", "TimeInterval"]
+- ["So22UIViewPropertyAnimatorC", "UICubicTimingParameters"]
+- ["So22UIViewPropertyAnimatorC", "UITimingCurveProvider"]
+- ["So22UIViewPropertyAnimatorC", "UIView"]
+- !private ["So22UIViewPropertyAnimatorC", "UIViewPropertyAnimator"]
+- ["So22UIViewPropertyAnimatorC", ""]
+- !private ["So22UIViewPropertyAnimatorC", "addAnimations"]
+- ["So22UIViewPropertyAnimatorC", "createAnimations"]
+- !private ["So22UIViewPropertyAnimatorC", "duration"]
+- !private ["So22UIViewPropertyAnimatorC", "fatalError"]
+- ["So22UIViewPropertyAnimatorC", "individualAnimations"]
+- ["So22UIViewPropertyAnimatorC", "individualDelay"]
+- ["So22UIViewPropertyAnimatorC", "individualDuration"]
+- ["So22UIViewPropertyAnimatorC", "individualTimingParameters"]
+- ["So22UIViewPropertyAnimatorC", "init"]
+- ["So22UIViewPropertyAnimatorC", "views"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeInterval"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UICubicTimingParameters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewPropertyAnimator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAnimations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createAnimations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "individualAnimations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "individualDelay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "individualDuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "individualTimingParameters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "views"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "14ScheduleSchool18SSCubicTimingCurveC"
+- "14ScheduleSchool29SSDelayedViewPropertyAnimatorC"
+- "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So23UICubicTimingParametersC"
+- "So21UITimingCurveProviderP"
+- "So15UIViewAnimatingP"
+- "SC20UIViewAnimationCurveO"
+- "So25UIViewImplicitlyAnimatingP"
+- "So22UIViewPropertyAnimatorC"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0da2e3b0966fee29ccc0693ab6e5b72a"

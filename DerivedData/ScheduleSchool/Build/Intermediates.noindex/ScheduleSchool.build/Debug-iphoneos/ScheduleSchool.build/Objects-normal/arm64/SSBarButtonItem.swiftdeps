@@ -1,0 +1,170 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSBarButtonItem"
+provides-nominal:
+- "14ScheduleSchool15SSBarButtonItemC"
+provides-member:
+- ["14ScheduleSchool15SSBarButtonItemC", ""]
+provides-dynamic-lookup:
+- "localizationKey"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "NSCoder"
+- "SSBarButtonItem"
+- "SSCustomLocalizable"
+- "String"
+- "UIBarButtonItem"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "localizationKey"]
+- !private ["s7CVarArgP", "localizedText"]
+- !private ["s7CVarArgP", "title"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "localizationKey"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedText"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "localizationKey"]
+- !private ["s23CustomStringConvertibleP", "localizedText"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "localizationKey"]
+- !private ["s9EquatableP", "localizedText"]
+- !private ["s9EquatableP", "title"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "localizationKey"]
+- !private ["s8HashableP", "localizedText"]
+- !private ["s8HashableP", "title"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "localizationKey"]
+- !private ["So8NSCodingP", "localizedText"]
+- !private ["So8NSCodingP", "title"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "localizationKey"]
+- !private ["So8NSObjectC", "localizedText"]
+- !private ["So8NSObjectC", "title"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "localizationKey"]
+- !private ["So16NSObjectProtocolP", "localizedText"]
+- !private ["So16NSObjectProtocolP", "title"]
+- ["14ScheduleSchool15SSBarButtonItemC", "NSCoder"]
+- ["14ScheduleSchool15SSBarButtonItemC", "String"]
+- ["14ScheduleSchool15SSBarButtonItemC", "deinit"]
+- ["14ScheduleSchool15SSBarButtonItemC", "init"]
+- ["14ScheduleSchool15SSBarButtonItemC", "localizationKey"]
+- !private ["14ScheduleSchool15SSBarButtonItemC", "localizedText"]
+- !private ["14ScheduleSchool15SSBarButtonItemC", "title"]
+- ["14ScheduleSchool19SSCustomLocalizableP", ""]
+- ["14ScheduleSchool19SSCustomLocalizableP", "localizationKey"]
+- !private ["14ScheduleSchool19SSCustomLocalizableP", "localizedText"]
+- !private ["14ScheduleSchool19SSCustomLocalizableP", "title"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- ["So29UIAccessibilityIdentificationP", "localizationKey"]
+- !private ["So29UIAccessibilityIdentificationP", "localizedText"]
+- !private ["So29UIAccessibilityIdentificationP", "title"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "init"]
+- ["So12UIAppearanceP", "localizationKey"]
+- !private ["So12UIAppearanceP", "localizedText"]
+- !private ["So12UIAppearanceP", "title"]
+- ["So15UIBarButtonItemC", "NSCoder"]
+- ["So15UIBarButtonItemC", "String"]
+- ["So15UIBarButtonItemC", ""]
+- ["So15UIBarButtonItemC", "init"]
+- ["So15UIBarButtonItemC", "localizationKey"]
+- !private ["So15UIBarButtonItemC", "localizedText"]
+- !private ["So15UIBarButtonItemC", "title"]
+- ["So9UIBarItemC", "NSCoder"]
+- ["So9UIBarItemC", "String"]
+- ["So9UIBarItemC", "init"]
+- ["So9UIBarItemC", "localizationKey"]
+- !private ["So9UIBarItemC", "localizedText"]
+- !private ["So9UIBarItemC", "title"]
+- ["So35UISpringLoadedInteractionSupportingP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- ["So35UISpringLoadedInteractionSupportingP", "localizationKey"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "localizedText"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "title"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "localizationKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "14ScheduleSchool15SSBarButtonItemC"
+- "14ScheduleSchool19SSCustomLocalizableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So15UIBarButtonItemC"
+- "So9UIBarItemC"
+- "So35UISpringLoadedInteractionSupportingP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e95cc61a5bd532ab99fb9dff335b3571"

@@ -1,0 +1,372 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSTimetable"
+- "SSSchoolday"
+provides-nominal:
+- "14ScheduleSchool11SSTimetableC"
+- "14ScheduleSchool11SSTimetableC11ClassesTypeO"
+- "14ScheduleSchool11SSSchooldayV"
+provides-member:
+- ["14ScheduleSchool11SSTimetableC", ""]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", ""]
+- ["14ScheduleSchool11SSSchooldayV", ""]
+provides-dynamic-lookup:
+- "encode"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Int"
+- "NSCoder"
+- "NSCoding"
+- "OptionSet"
+- "SSSchoolday"
+- "SSTimetable"
+- "String"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "decodeBool"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "init"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "RawValue"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "_Default_RawValue"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "custom"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "deinit"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "hashValue"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "init"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "numbered"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "rawValue"]
+- ["14ScheduleSchool11SSTimetableC11ClassesTypeO", "unspecified"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeBool"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "decodeBool"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "ArrayLiteralElement"]
+- ["s9EquatableP", "Element"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", "SSSchoolday"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_ArrayLiteralElement"]
+- ["s9EquatableP", "_Default_Element"]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "decodeBool"]
+- !private ["s9EquatableP", "decodeObject"]
+- !private ["s9EquatableP", "encode"]
+- ["s9EquatableP", "formIntersection"]
+- ["s9EquatableP", "formSymmetricDifference"]
+- ["s9EquatableP", "formUnion"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "insert"]
+- ["s9EquatableP", "intersection"]
+- ["s9EquatableP", "isDisjoint"]
+- ["s9EquatableP", "isEmpty"]
+- ["s9EquatableP", "isSubset"]
+- ["s9EquatableP", "isSuperset"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "remove"]
+- ["s9EquatableP", "subtract"]
+- ["s9EquatableP", "subtracting"]
+- ["s9EquatableP", "symmetricDifference"]
+- ["s9EquatableP", "union"]
+- ["s9EquatableP", "update"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- ["s25ExpressibleByArrayLiteralP", "SSSchoolday"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_RawValue"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "decodeBool"]
+- !private ["s8HashableP", "decodeObject"]
+- !private ["s8HashableP", "encode"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So7NSCoderC", "decodeBool"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- ["So8NSCodingP", "ClassesType"]
+- !private ["So8NSCodingP", "PropertyKey"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "classesType"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "schooldays"]
+- !private ["So8NSObjectC", "decodeBool"]
+- !private ["So8NSObjectC", "decodeObject"]
+- !private ["So8NSObjectC", "encode"]
+- !private ["So16NSObjectProtocolP", "decodeBool"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- !private ["So16NSObjectProtocolP", "encode"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "RawValue"]
+- ["s9OptionSetP", "SSSchoolday"]
+- ["s9OptionSetP", ""]
+- ["s9OptionSetP", "_Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "_Default_Element"]
+- ["s9OptionSetP", "_Default_RawValue"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "ArrayLiteralElement"]
+- ["s16RawRepresentableP", "Element"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "SSSchoolday"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_ArrayLiteralElement"]
+- ["s16RawRepresentableP", "_Default_Element"]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "contains"]
+- ["s16RawRepresentableP", "formIntersection"]
+- ["s16RawRepresentableP", "formSymmetricDifference"]
+- ["s16RawRepresentableP", "formUnion"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "insert"]
+- ["s16RawRepresentableP", "intersection"]
+- ["s16RawRepresentableP", "isDisjoint"]
+- ["s16RawRepresentableP", "isEmpty"]
+- ["s16RawRepresentableP", "isSubset"]
+- ["s16RawRepresentableP", "isSuperset"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "remove"]
+- ["s16RawRepresentableP", "subtract"]
+- ["s16RawRepresentableP", "subtracting"]
+- ["s16RawRepresentableP", "symmetricDifference"]
+- ["s16RawRepresentableP", "union"]
+- ["s16RawRepresentableP", "update"]
+- ["14ScheduleSchool11SSSchooldayV", "ArrayLiteralElement"]
+- ["14ScheduleSchool11SSSchooldayV", "Element"]
+- ["14ScheduleSchool11SSSchooldayV", "Int"]
+- ["14ScheduleSchool11SSSchooldayV", "RawValue"]
+- ["14ScheduleSchool11SSSchooldayV", "SSSchoolday"]
+- ["14ScheduleSchool11SSSchooldayV", "_Default_ArrayLiteralElement"]
+- ["14ScheduleSchool11SSSchooldayV", "_Default_Element"]
+- ["14ScheduleSchool11SSSchooldayV", "_Default_RawValue"]
+- ["14ScheduleSchool11SSSchooldayV", "contains"]
+- ["14ScheduleSchool11SSSchooldayV", "deinit"]
+- ["14ScheduleSchool11SSSchooldayV", "formIntersection"]
+- ["14ScheduleSchool11SSSchooldayV", "formSymmetricDifference"]
+- ["14ScheduleSchool11SSSchooldayV", "formUnion"]
+- ["14ScheduleSchool11SSSchooldayV", "friday"]
+- ["14ScheduleSchool11SSSchooldayV", "init"]
+- ["14ScheduleSchool11SSSchooldayV", "insert"]
+- ["14ScheduleSchool11SSSchooldayV", "intersection"]
+- ["14ScheduleSchool11SSSchooldayV", "isDisjoint"]
+- ["14ScheduleSchool11SSSchooldayV", "isEmpty"]
+- ["14ScheduleSchool11SSSchooldayV", "isSubset"]
+- ["14ScheduleSchool11SSSchooldayV", "isSuperset"]
+- ["14ScheduleSchool11SSSchooldayV", "monday"]
+- ["14ScheduleSchool11SSSchooldayV", "rawValue"]
+- ["14ScheduleSchool11SSSchooldayV", "remove"]
+- ["14ScheduleSchool11SSSchooldayV", "saturday"]
+- ["14ScheduleSchool11SSSchooldayV", "subtract"]
+- ["14ScheduleSchool11SSSchooldayV", "subtracting"]
+- ["14ScheduleSchool11SSSchooldayV", "sunday"]
+- ["14ScheduleSchool11SSSchooldayV", "symmetricDifference"]
+- ["14ScheduleSchool11SSSchooldayV", "thursday"]
+- ["14ScheduleSchool11SSSchooldayV", "tuesday"]
+- ["14ScheduleSchool11SSSchooldayV", "union"]
+- ["14ScheduleSchool11SSSchooldayV", "update"]
+- ["14ScheduleSchool11SSSchooldayV", "wednesday"]
+- ["14ScheduleSchool11SSTimetableC", "ClassesType"]
+- ["14ScheduleSchool11SSTimetableC", "Int"]
+- ["14ScheduleSchool11SSTimetableC", "NSCoder"]
+- !private ["14ScheduleSchool11SSTimetableC", "PropertyKey"]
+- ["14ScheduleSchool11SSTimetableC", "SSSchoolday"]
+- ["14ScheduleSchool11SSTimetableC", "SSTimetable"]
+- ["14ScheduleSchool11SSTimetableC", "String"]
+- ["14ScheduleSchool11SSTimetableC", "classesType"]
+- ["14ScheduleSchool11SSTimetableC", "deinit"]
+- ["14ScheduleSchool11SSTimetableC", "encode"]
+- ["14ScheduleSchool11SSTimetableC", "encodeWithCoder"]
+- ["14ScheduleSchool11SSTimetableC", "init"]
+- ["14ScheduleSchool11SSTimetableC", "schooldays"]
+- ["s8SequenceP", "init"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", "RawValue"]
+- ["s10SetAlgebraP", "SSSchoolday"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "_Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "_Default_Element"]
+- ["s10SetAlgebraP", "_Default_RawValue"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeBool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "14ScheduleSchool11SSTimetableC11ClassesTypeO"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "s9OptionSetP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "14ScheduleSchool11SSSchooldayV"
+- "14ScheduleSchool11SSTimetableC"
+- "s8SequenceP"
+- "s10SetAlgebraP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d97753089b1bd35655dde6fea15230c3"

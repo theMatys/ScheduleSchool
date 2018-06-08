@@ -1,0 +1,116 @@
+
+/**************** WELCOME SCENE ****************/
+
+/* Title */
+"GEg-hd-aNo.text" = "Üdvözlünk.";
+
+/* Welcome Message */
+"HnT-dm-Gbo.text" = "Üdvözlünk a Schedule Schoolban, az iskolai életedet megkönnyítő alkalmazásban. Van egy pár dolog, amit el kell végeznünk, mielőtt használhatnád az alkalmazást. \n\nNe is vesztegessük tovább az időt, és kezdjük is el!";
+
+
+/**************** PROFILE SCENE ****************/
+
+/* Title */
+"JPb-cO-2sL.text" = "A profilod";
+
+/* Description */
+"ZbX-tY-JEh.text" = "Kérjük, add meg a neved. Ha úgy szeretnéd, egy profilképet is beállíthatsz.";
+
+/* Profile Picture Hint */
+"xxa-gX-1zv.text" = "Az alábbi gomb megnyomásával tudsz profilképet hozzáadni.";
+
+/* Profile Picture Button Title */
+"FMi-fd-1d0.normalTitle" = "Profilkép hozzáadása";
+
+
+/**************** TIMETABLE SCENE ****************/
+
+/* Title */
+"HG8-eS-Y3h.text" = "Az órarended.";
+
+/* Message */
+"afv-F4-l09.text" = "Bármely fajta beosztás számára elengedhetetlen egy keretrendszer, amely alapján készíthető el maga a beosztás. Jelen esetben, ez a keretrendszer az órarended.\n\nA következőkben az órarendedet fogjuk elkészíteni.";
+
+
+/**************** TIMETABLE - MONDAY SCENE ****************/
+
+/* Title */
+"n5g-PR-xlO.text" = "Hétfő";
+
+/* Description */
+"Z65-gn-ngU.text" = "Milyen órákkal kezdődik a heted?";
+
+/* Class Button Title */
+"Shp-6x-mMX.normalTitle" = "Óra hozzáadása";
+
+
+/**************** TIMETABLE - TUESDAY SCENE ****************/
+
+/* Title */
+"pAN-5n-i4a.text" = "Kedd";
+
+/* Description */
+"Xxg-5v-TuK.text" = "Milyen órák követik az előzőeket kedden?";
+
+/* Class Button Title */
+"nDM-wH-zWm.normalTitle" = "Óra hozzáadása";
+
+
+/**************** TIMETABLE - WEDNESDAY SCENE ****************/
+
+/* Title */
+"QYs-BU-7O3.text" = "Szerda";
+
+/* Description */
+"2J2-jF-NeY.text" = "Hogy vannak a hét közepén?";
+
+/* Class Button Title */
+"kgj-Z3-2MX.normalTitle" = "Óra hozzáadása";
+
+
+/**************** TIMETABLE - THURSDAY SCENE ****************/
+
+/* Title */
+"Jo4-LY-OSO.text" = "Csütörtök";
+
+/* Description */
+"d9S-IL-Nws.text" = "Mi van a \"Nyugalom, mindjárt péntek\" nevezetű nappal?";
+
+/* Class Button Title */
+"yPM-by-t10.normalTitle" = "Óra hozzáadása";
+
+
+/**************** TIMETABLE - FRIDAY SCENE ****************/
+
+/* Title */
+"H2j-3d-VdH.text" = "Péntek";
+
+/* Description */
+"K8L-1o-o3Z.text" = "Végre!!!! Vége a hétnek!!";
+
+/* Class Button Title */
+"pMq-Mf-hW5.normalTitle" = "Óra hozzáadása";
+
+
+/**************** TIMETABLE - SATURDAY SCENE ****************/
+
+/* Title */
+"vjT-KF-q3M.text" = "Szombat";
+
+/* Description */
+"c5L-tp-bbr.text" = "...vagy nem, ha vannak óráid szombaton.";
+
+/* Class Button Title */
+"mOu-Ad-9RJ.normalTitle" = "Óra hozzáadása";
+
+
+/**************** TIMETABLE - SUNDAY SCENE ****************/
+
+/* Title */
+"RWR-Ma-YAI.text" = "Vasárnap";
+
+/* Description */
+"CLr-cK-lHP.text" = "...és végképp nem, ha vasárnap is vannak.";
+
+/* Class Button Title */
+"o8x-2O-K7M.normalTitle" = "Óra hozzáadása";
