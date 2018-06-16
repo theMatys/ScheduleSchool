@@ -22,12 +22,16 @@ class SSFLWelcomeController: SSViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
-            self.mvSwipeInformer.startAnimation()
-        }
     }
 
+    override func viewDidAppear(_ animated: Bool)
+    {
+        super.viewDidAppear(animated)
+        
+        // Start the bounce animation of the swipe informer
+        mvSwipeInformer.startBounceAnimation()
+    }
+    
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()

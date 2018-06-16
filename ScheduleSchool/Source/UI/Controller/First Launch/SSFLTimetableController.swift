@@ -24,6 +24,14 @@ class SSFLTimetableController: SSViewController
         super.viewDidLoad()
     }
 
+    override func viewDidAppear(_ animated: Bool)
+    {
+        super.viewDidAppear(animated)
+        
+        // Start the bounce animation of the swipe informer
+        mvSwipeInformer.startBounceAnimation()
+    }
+    
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()

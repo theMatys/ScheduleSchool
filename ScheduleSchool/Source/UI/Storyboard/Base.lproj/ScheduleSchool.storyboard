@@ -136,6 +136,7 @@ Let’s not waste any more time and dive right in!</string>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="TMl-Ex-ynd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4a3-ra-7ZB" userLabel="Contents Background LD"/>
                             <constraint firstItem="TMl-Ex-ynd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7CY-Bj-W9E" userLabel="Contents Background TR"/>
@@ -154,6 +155,9 @@ Let’s not waste any more time and dive right in!</string>
                             <constraint firstItem="bDe-UP-Hc2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="r6g-VZ-oqI" userLabel="Background Image LD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ykA-kY-e7v" appends="YES" id="95j-DZ-dSN"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="mvContentsBackground" destination="TMl-Ex-ynd" id="nqA-yc-GpR"/>
@@ -164,8 +168,9 @@ Let’s not waste any more time and dive right in!</string>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ykA-kY-e7v" userLabel="Forwarder Gesture Recognizer"/>
             </objects>
-            <point key="canvasLocation" x="71" y="116"/>
+            <point key="canvasLocation" x="69.599999999999994" y="115.59220389805098"/>
         </scene>
         <!--Profile-->
         <scene sceneID="0zM-8J-ZIK">
@@ -606,6 +611,7 @@ The next couple of steps will set up your timetable.</string>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Mkb-jt-qMs">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <gestureRecognizers/>
                                 </view>
                                 <blurEffect style="dark"/>
                             </visualEffectView>
@@ -732,6 +738,7 @@ The next couple of steps will set up your timetable.</string>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="RIM-BV-h49" firstAttribute="leading" secondItem="fgf-EM-P98" secondAttribute="leading" id="H6d-0m-3w0" userLabel="Background Blur LD"/>
                             <constraint firstItem="RIM-BV-h49" firstAttribute="top" secondItem="fat-0R-Zbe" secondAttribute="top" id="LcB-3p-TCe" userLabel="Background Blur T"/>

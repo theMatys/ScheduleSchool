@@ -64,8 +64,6 @@ class SSFLProfileController: SSViewController, UIGestureRecognizerDelegate, UITe
         
         // Hide the swipe informer by default
         mvSwipeInformer.isHidden = true
-        
-        
     }
 
     override func didReceiveMemoryWarning()
@@ -117,6 +115,7 @@ class SSFLProfileController: SSViewController, UIGestureRecognizerDelegate, UITe
             
             // Show the swipe informer with a fade in animation
             UIViewPropertyAnimator(duration: 0.1, curve: UIViewAnimationCurve.linear, animations: {
+                self.mvSwipeInformer.startBounceAnimation()
                 self.mvSwipeInformer.alpha = swipeInformerAlpha
             }).startAnimation()
             

@@ -355,7 +355,7 @@ class SSButton: UICustomButton, SSCustomLocalizable
         /// The total number of cases in the enumeration.
         static var count: Int
         {
-            return background.hashValue + 1
+            return background.rawValue + 1
         }
     }
     

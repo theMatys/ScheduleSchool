@@ -102,12 +102,12 @@ extension String
         if(size != nil)
         {
             // If there is a max size, calculate the string's size with respect to that
-            return nsString.boundingRect(with: size!, options: .usesLineFragmentOrigin, attributes: [.font : font], context: nil).size
+            return nsString.boundingRect(with: size!, options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font : font], context: nil).size
         }
         else
         {
             // If there is no max size, calculate the string's size regularly
-            return nsString.size(withAttributes: [.font : font])
+            return nsString.size(withAttributes: [NSAttributedStringKey.font : font])
         }
     }
 }

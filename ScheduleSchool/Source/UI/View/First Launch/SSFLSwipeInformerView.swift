@@ -17,22 +17,32 @@ import UIKit
     /// The Interface Builder compatible copy of "`direction`".
     ///
     /// Whenever its value is set, it is clamped and used to create an `SSSwipeInfoView.Direction` instance.
-    @IBInspectable internal var ibDirection: Int = 1
+    @IBInspectable private var ibDirection: Int
     {
-        didSet
+        get
         {
-            direction = Direction(rawValue: (ibDirection <?> (1, Direction.count)) - 1)!
+            return direction.rawValue + 1
+        }
+        
+        set
+        {
+            direction = Direction(rawValue: (newValue <?> (1, Direction.count)) - 1)!
         }
     }
     
     /// The Interface Builder compatible copy of "`alignment`".
     ///
     /// Whenever its value is set, it is clamped and used to create an `SSSwipeInfoView.Alignment` instance.
-    @IBInspectable internal var ibAlignment: Int = 1
+    @IBInspectable private var ibAlignment: Int
     {
-        didSet
+        get
         {
-            alignment = Alignment(rawValue: (ibAlignment <?> (1, Alignment.count)) - 1)!
+            return alignment.rawValue + 1
+        }
+        
+        set
+        {
+            alignment = Alignment(rawValue: (newValue <?> (1, Alignment.count)) - 1)!
         }
     }
     
@@ -117,17 +127,20 @@ import UIKit
     /// The constraint of the width of "`label`".
     private var labelWidth: NSLayoutConstraint!
     
-    /// Indicates whether the animation of the arrow should replay itself after it has been finished.
-    private var shouldContinueAnimation: Bool = true
+    // BOUNCE ANIMATION //
     
-    private var animator: SSRepeatingViewPropertyAnimator!
+    /// The animator which is responsible for performing the infinitely-repeating bounce animation of the informer's arrow.
+    private var bounceAnimator: UIViewPropertyAnimator!
     
+    /// Indicates whether the bounce animation of the informer's arrow should replay itself after it has been finished.
+    private var shouldContinueBounceAnimation: Bool = true
+
     // INTERNAL VALUES //
     
     /// The internal value of the boolean which indicates whether the view is collapsed (only shows the arrow and the text is hidden).
     private var _collapsed: Bool = false
     
-    // MARK: - Inherited initializers from: UIStackView
+    // MARK: - Inherited initializers from: UIView
     override init(frame: CGRect)
     {
         super.init(frame: frame)
@@ -140,7 +153,126 @@ import UIKit
         prepare()
     }
     
+    // MARK: Inherited methdods from: UIView
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?)
+    {
+        if(keyPath != nil && keyPath == #keyPath(UIViewPropertyAnimator.isRunning) && object is UIViewPropertyAnimator && (object as! UIViewPropertyAnimator) == bounceAnimator)
+        {
+            // Retrieve the old and the new value of the animator's "isRunning" property
+            let oldValue: Bool = change![.oldKey] as! Bool
+            let newValue: Bool = change![.newKey] as! Bool
+            
+            // If the animator is still active and the "isRunning" property has just changed from "true" to "false", we assume that the animator has finished and we should reverse and repeat the animations. Note that this should only be done if we should actually continue the animation (see: "shouldContinueAnimation")
+            if(!newValue && oldValue && bounceAnimator.state == .active && shouldContinueBounceAnimation)
+            {
+                bounceAnimator.isReversed=!
+                bounceAnimator.startAnimation()
+            }
+            else if(!shouldContinueBounceAnimation)
+            {
+                // If the animation should not be continued, stop and finish it
+                bounceAnimator.stopAnimation(false)
+                bounceAnimator.finishAnimation(at: .current)
+                
+                // Remove the observer and reset the indicator property
+                bounceAnimator.removeObserver(self, forKeyPath: #keyPath(UIViewPropertyAnimator.isRunning))
+                shouldContinueBounceAnimation = true
+            }
+        }
+    }
+    
     // MARK: Methods
+    
+    /// Starts the infinitely-repeating bounce animation of the informer's arrow.
+    ///
+    /// __NOTE:__ The animation reverses and repeats itself until it is asked to be stopped, using: "`stopBounceAnimation(withoutFinishing:)`".
+    ///
+    /// - Parameter delay: The amount of time (in seconds) which should ellapse before the animation is started.
+    func startBounceAnimation(afterDelay delay: TimeInterval? = nil)
+    {
+        // Define the original value of the modified constraint's constant
+        var sConstant: CGFloat = 0.0
+        
+        // Define the actual bounce animation
+        bounceAnimator = UIViewPropertyAnimator(duration: 0.25, curve: UIViewAnimationCurve.easeInOut) {
+            if(self.direction == .up || self.direction == .down)
+            {
+                sConstant = self.arrowCenterY.constant
+                self.arrowCenterY.constant = self.direction == .up ? -2.5 : 2.5
+            }
+            else if(self.direction == .left)
+            {
+                sConstant = self.arrowTrailing.constant
+                self.arrowTrailing.constant -= 5.0
+            }
+            else
+            {
+                sConstant = self.arrowLeading.constant
+                self.arrowLeading.constant += 5.0
+            }
+            
+            self.layoutIfNeeded()
+        }
+        
+        // Define the completion of the bounce animation
+        bounceAnimator.addCompletion { _ in
+            // The completion of the bounce animator is a finishing animation which animates the arrow back into its original position, define this
+            UIViewPropertyAnimator(duration: 0.25, curve: .ssEaseInOUT, animations: {
+                if(self.direction == .up || self.direction == .down)
+                {
+                    self.arrowCenterY.constant = sConstant
+                }
+                else if(self.direction == .left)
+                {
+                    self.arrowTrailing.constant = sConstant
+                }
+                else
+                {
+                    self.arrowLeading.constant = sConstant
+                }
+                
+                self.layoutIfNeeded()
+            }).startAnimation()
+        }
+        
+        // Perform the operations to make the bounce animation reversible
+        bounceAnimator.pausesOnCompletion = true
+        bounceAnimator.addObserver(self, forKeyPath: #keyPath(UIViewPropertyAnimator.isRunning), options: [.old, .new], context: nil)
+        
+        if(direction == .up || direction == .down)
+        {
+            // Offset the arrow in reverse direction if the direction is vertical
+            arrowCenterY.constant = direction == .up ? 2.5 : -2.5
+            layoutIfNeeded()
+            
+            // Start the animation as if it was 50% completed (so that the timing curve looks right)
+            bounceAnimator.pauseAnimation()
+            bounceAnimator.fractionComplete = 0.5
+            bounceAnimator.startAnimation()
+        }
+        else
+        {
+            // Start the animation regularly if the direction is horizontal
+            bounceAnimator.startAnimation()
+        }
+    }
+    
+    /// Stops the bounce animation of the informer's arrow either animating or not animating the arrow into its original position.
+    ///
+    /// - Parameter withoutFinishing: Indicates whether the bounce animation should return the arrow to its original position.
+    func stopBounceAnimation(withoutFinishing: Bool)
+    {
+        if(withoutFinishing)
+        {
+            // Stop the animation where it is currently
+            bounceAnimator.stopAnimation(true)
+        }
+        else
+        {
+            // Indicate to the "isRunning" observer that the animation should no longer continue
+            shouldContinueBounceAnimation = false
+        }
+    }
     
     /// Sets the value of "`collapsed`", optionally animated.
     ///
@@ -157,21 +289,6 @@ import UIKit
         
         // Hide/show the label according to the new value
         label.isHidden = collapsed
-    }
-    
-    func startAnimation(afterDelay delay: TimeInterval? = nil)
-    {
-        animator = SSRepeatingViewPropertyAnimator(duration: 0.25, curve: .ssEaseInOUT) {
-            self.arrowCenterY.constant = 5.0
-            self.layoutIfNeeded()
-        }
-        
-        animator.startAnimation()
-    }
-    
-    func stopAnimation()
-    {
-        shouldContinueAnimation = false
     }
     
     /// Prepares the arrow and the label which inform about the swipe.
@@ -343,7 +460,7 @@ import UIKit
         /// The total number of cases in this enumeration.
         static var count: Int
         {
-            return right.hashValue + 1
+            return right.rawValue + 1
         }
     }
     
@@ -359,7 +476,7 @@ import UIKit
         /// The total number of cases in this enumeration.
         static var count: Int
         {
-            return trailing.hashValue + 1
+            return trailing.rawValue + 1
         }
     }
 }

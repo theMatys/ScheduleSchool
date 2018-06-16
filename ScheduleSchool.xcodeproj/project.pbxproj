@@ -424,9 +424,11 @@
 				TargetAttributes = {
 					4263535820B7F1FA005B1C3D = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1000;
 					};
 					4263536C20B7F1FD005B1C3D = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 4263535820B7F1FA005B1C3D;
 					};
 				};
@@ -682,13 +684,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3353XP4LG;
 				INFOPLIST_FILE = "$(SRCROOT)/ScheduleSchool/Resource/Application/Base.lproj/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thematys.ScheduleSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -700,13 +703,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E3353XP4LG;
 				INFOPLIST_FILE = "$(SRCROOT)/ScheduleSchool/Resource/Application/Base.lproj/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thematys.ScheduleSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -726,7 +730,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thematys.ScheduleSchoolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScheduleSchool.app/ScheduleSchool";
 			};
@@ -747,7 +751,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thematys.ScheduleSchoolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScheduleSchool.app/ScheduleSchool";
 			};

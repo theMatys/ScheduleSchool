@@ -582,8 +582,6 @@ class SSGradient
             static let parameterToken: Token = Token(representingString: "")
             static let parameterOpenToken: Token = Token(representingString: "(", wantedContext: parameterToken)
             static let parameterCloseToken: Token = Token(representingString: ")", wantedContext: parameterToken)
-            
-            
             static let beginPointToken: Token = Token(representingString: "b", expected: parameterToken)
             static let endPointToken: Token = Token(representingString: "e", expected: parameterToken)
             static let stopToken: Token = Token(representingString: "s", expected: parameterToken)
