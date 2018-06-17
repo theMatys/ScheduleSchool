@@ -250,7 +250,7 @@ extension CGPoint
 // MARK: -
 extension CGSize
 {
-    /// Returns the point at the width and the height of the size with the size being the coordinate system.
+    /// Returns the point at the width and the height of the size with `(0.0, 0.0)` being the origin of the coordinate system.
     var point: CGPoint
     {
         return CGPoint(x: width, y: height)
@@ -262,6 +262,18 @@ extension CGSize
         return (width + height) / 2
     }
     
+    // MARK: Methods
+    
+    /// Returns the point at the width and height of the size with the given point being the origin of the coordinate system.
+    ///
+    /// - Parameter origin: The origin of the coordinate system in which the width and height of the size represent a point.
+    /// - Returns: The point at the width and height of the size in the coordinate system with the given origin.
+    func point(with origin: CGPoint) -> CGPoint
+    {
+        return CGPoint(x: origin.x + width, y: origin.y + height)
+    }
+    
+    // MARK: Operators
     static prefix func -(rhs: CGSize) -> CGSize
     {
         var result: CGSize = rhs
@@ -410,10 +422,10 @@ extension CGSize
 // MARK: -
 extension CGRect
 {
-    /// Returns the furthermost point of the rectangle from its origin.
-    var end: CGPoint
+    /// Returns the point with the largest x and y coordinates in the rectangle.
+    var maxPoint: CGPoint
     {
-        return CGPoint(x: origin.x + width, y: origin.y + height)
+        return CGPoint(x: maxX, y: maxY)
     }
     
     /// Constraints the receiver so that it is just inside the given rectangle.
@@ -424,16 +436,16 @@ extension CGRect
     {
         var result: CGRect = self
         
-        if(result.end.x > rect.end.x)
+        if(result.maxX > rect.maxX)
         {
             // Resize the rectangle horizontally so that it is just inside the frame rectangle
-            result.size.width -= result.end.x - rect.end.x
+            result.size.width -= result.maxPoint.x - rect.maxPoint.x
         }
         
-        if(result.end.y > rect.end.y)
+        if(result.maxY > rect.maxY)
         {
             // Resize the rectangle vertically so that it is just inside the frame rectangle
-            result.size.height -= result.end.y - rect.end.y
+            result.size.height -= result.maxY - rect.maxY
         }
         
         return result
@@ -649,15 +661,15 @@ extension CALayer
 extension UIView
 {
     /// Returns the furthermost point of the view's frame from its origin. (Superview's coordinate system)
-    var frameEnd: CGPoint
+    var frameMaxPoint: CGPoint
     {
         return CGPoint(x: frame.origin.x + frame.width, y: frame.origin.y + frame.height)
     }
     
     /// Returns the furthermost point of the view's bounds from its origin. (View's own coordinate system)
-    var boundsEnd: CGPoint
+    var boundsMaxPoint: CGPoint
     {
-        return CGPoint(x: bounds.width, y: bounds.height)
+        return CGPoint(x: bounds.origin.x + bounds.width, y: bounds.origin.y + bounds.height)
     }
     
     /// Returns whether the view is supposed to draw its contents in left-to-right mode.
@@ -890,7 +902,7 @@ extension UIImageView
 // MARK: -
 extension UIViewPropertyAnimator
 {
-    /// Initializes the animator object with a cubic Bézier timing curve.
+    /// Initializes the animator object with a cubic Bézier timing curve with initial animations.
     ///
     /// - Parameters:
     ///   - duration: The duration of the animation, in seconds.
@@ -899,6 +911,16 @@ extension UIViewPropertyAnimator
     convenience init(duration: TimeInterval, curve: SSCubicTimingCurve, animations: (() -> ())?)
     {
         self.init(duration: duration, controlPoint1: curve.controlPoint1, controlPoint2: curve.controlPoint2, animations: animations)
+    }
+    
+    /// Initializes the animator object with a cubic Beziér timing curve.
+    ///
+    /// - Parameters:
+    ///   - duration: The duration of the animation, in seconds.
+    ///   - curve: The object providing the timing information.
+    convenience init(duration: TimeInterval, curve: SSCubicTimingCurve)
+    {
+        self.init(duration: duration, curve: curve, animations: nil)
     }
 }
 

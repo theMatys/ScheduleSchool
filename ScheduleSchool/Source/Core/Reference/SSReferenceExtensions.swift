@@ -199,4 +199,12 @@ extension String
             return "ss_string_swipe_informer_right"
         }
     }
+    
+    // MARK: Segue identifiers
+    
+    /// Returns the identifier for the segue which transitions from the "Welcome" scene to the "Profile" scene in the first launch setup.
+    static var ssSegueFLWelcomeToProfile: String
+    {
+        return "ss_segue_fl_welcome_to_profile"
+    }
 }

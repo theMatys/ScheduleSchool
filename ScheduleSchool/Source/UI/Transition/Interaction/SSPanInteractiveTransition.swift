@@ -1,26 +1,26 @@
 //
-//  SSScreenEdgePanInteractiveTransition.swift
-//  Schedule School
+//  SSPanInteractiveTransition.swift
+//  ScheduleSchool
 //
-//  Created by Máté on 2018. 03. 26.
+//  Created by Máté on 2018. 06. 17.
 //  Copyright © 2018. theMatys. All rights reserved.
 //
 
 import UIKit
 
-/// An interaction controller which handles user interaction with a screen edge pan gesture recognizer.
+/// An interaction controller which handles user interaction with a pan gesture recognizer.
 ///
 /// __IMPORTANT:__ The class is not responsible for starting the interactive transition when the gesture recognizer gets engaged.
 ///
 ///   - If the view controller is not embedded in a navigation controller, the gesture recognizer should be declared in the view controller and it should commit the presentation/dismissal of the view controller upon engagement. The transitioning delegate of the view controller should then return this class as the interaction controller of the transition.
 ///
 ///   - If the view controller is embedded in a navigation controller, the gesture recognizer should be declared in the navigation controller and it should commit a push/pop operation upon engagement. The delegate of the navigation controller should then return this class as the interaction controller of the transition.
-class SSScreenEdgePanInteractiveTransition: SSPercentDrivenInteractiveTransition
+class SSPanInteractiveTransition: SSPercentDrivenInteractiveTransition
 {
     // MARK: Properties
     
-    /// The screen edge pan gesture recognizer which handles the change of the pan, making interactivity possible.
-    var gestureRecognizer: UIScreenEdgePanGestureRecognizer
+    /// The pan gesture recognizer which handles the change of the pan, making interactivity possible.
+    var gestureRecognizer: UIPanGestureRecognizer
     {
         return _gestureRecognizer
     }
@@ -39,8 +39,8 @@ class SSScreenEdgePanInteractiveTransition: SSPercentDrivenInteractiveTransition
     
     // INTERNAL VALUES //
     
-    /// The internal value of the screen edge pan gesture recognizer which handles the change of the pan.
-    private var _gestureRecognizer: UIScreenEdgePanGestureRecognizer!
+    /// The internal value of the pan gesture recognizer which handles the change of the pan.
+    private var _gestureRecognizer: UIPanGestureRecognizer!
     
     /// The internal value of the direction in which the change of the pan is considered as progression.
     private var _progressionDirection: ProgressionDirection!
@@ -50,12 +50,12 @@ class SSScreenEdgePanInteractiveTransition: SSPercentDrivenInteractiveTransition
     
     // MARK: - Initializers
     
-    /// Initializes an `SSScreenEdgePanInteractiveTransition` object out of the given parameters.
+    /// Initializes an `SSPanInteractiveTransition` object out of the given parameters.
     ///
     /// - Parameters:
-    ///   - gestureRecognizer: The screen edge pan gesture recognizer which handles the change of the pan.
+    ///   - gestureRecognizer: The pan gesture recognizer which handles the change of the pan.
     ///   - progressionDirection: The direction in which the progression of the pan is considered.
-    init(gestureRecognizer: UIScreenEdgePanGestureRecognizer, progressionDirection: ProgressionDirection)
+    init(gestureRecognizer: UIPanGestureRecognizer, progressionDirection: ProgressionDirection)
     {
         super.init()
         
@@ -70,7 +70,7 @@ class SSScreenEdgePanInteractiveTransition: SSPercentDrivenInteractiveTransition
         super.startInteractiveTransition(transitionContext)
         
         // Subscribe to the gesture recognizer which handles the change of the pan
-        gestureRecognizer.addTarget(self, action: #selector(SSScreenEdgePanInteractiveTransition.updateGestureRecognizer))
+        gestureRecognizer.addTarget(self, action: #selector(SSPanInteractiveTransition.updateGestureRecognizer))
     }
     
     override func cancel()
@@ -78,7 +78,7 @@ class SSScreenEdgePanInteractiveTransition: SSPercentDrivenInteractiveTransition
         super.cancel()
         
         // Unsubscribe from the gesture recognizer which handles the change of the pan
-        gestureRecognizer.removeTarget(self, action: #selector(SSScreenEdgePanInteractiveTransition.updateGestureRecognizer))
+        gestureRecognizer.removeTarget(self, action: #selector(SSPanInteractiveTransition.updateGestureRecognizer))
     }
     
     override func finish()
@@ -86,15 +86,15 @@ class SSScreenEdgePanInteractiveTransition: SSPercentDrivenInteractiveTransition
         super.finish()
         
         // Unsubscribe from the gesture recognizer which handles the change of the pan
-        gestureRecognizer.removeTarget(self, action: #selector(SSScreenEdgePanInteractiveTransition.updateGestureRecognizer))
+        gestureRecognizer.removeTarget(self, action: #selector(SSPanInteractiveTransition.updateGestureRecognizer))
     }
     
     // MARK: Methods
     
     /// Updates the transition as requested by the gesture recognizer.
     ///
-    /// - Parameter gestureRecognizer: The screen edge pan gesture recognizer which requested the handling of the pan's change.
-    @objc private func updateGestureRecognizer(_ gestureRecognizer: UIScreenEdgePanGestureRecognizer)
+    /// - Parameter gestureRecognizer: The pan gesture recognizer which requested the handling of the pan's change.
+    @objc private func updateGestureRecognizer(_ gestureRecognizer: UIPanGestureRecognizer)
     {
         let translationView: UIView = transitionContext.containerView
         
@@ -102,15 +102,15 @@ class SSScreenEdgePanInteractiveTransition: SSPercentDrivenInteractiveTransition
         let velocity: CGPoint = gestureRecognizer.velocity(in: translationView)
         let nominator: CGFloat =
             progressionDirection == .left ? translation.x :
-            progressionDirection == .right ? -translation.x :
-            progressionDirection == .up ? -translation.y : translation.y
+                progressionDirection == .right ? -translation.x :
+                progressionDirection == .up ? -translation.y : translation.y
         
         let denominator: CGFloat = progressionDirection == .left || progressionDirection == .right ? translationView.frame.width : translationView.frame.height
         
         let processedVelocity: CGFloat =
             progressionDirection == .left ? velocity.x :
-            progressionDirection == .right ? -velocity.x :
-            progressionDirection == .up ? -velocity.y : velocity.y
+                progressionDirection == .right ? -velocity.x :
+                progressionDirection == .up ? -velocity.y : velocity.y
         
         switch gestureRecognizer.state
         {

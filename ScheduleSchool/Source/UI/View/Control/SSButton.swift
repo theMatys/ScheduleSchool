@@ -932,20 +932,20 @@ class SSImageButton: SSButton
             case .left, .leading, .right, .trailing:
                 if(contentHorizontalAlignment == .left || (contentHorizontalAlignment == .leading && isLeftToRight))
                 {
-                    result.origin.x = unalignedImageRect.end.x + imageSpacing
+                    result.origin.x = unalignedImageRect.maxX + imageSpacing
                 }
                 else
                 {
-                    result.origin.x += unalignedImageRect.end.x + contentRect.width - intrinsicContentSize.width + imageSpacing
+                    result.origin.x += unalignedImageRect.maxX + contentRect.width - intrinsicContentSize.width + imageSpacing
                 }
                 break
                 
             case .center:
-                result.origin.x += unalignedImageRect.end.x + (contentRect.width - intrinsicContentSize.width) / 2 + imageSpacing
+                result.origin.x += unalignedImageRect.maxX + (contentRect.width - intrinsicContentSize.width) / 2 + imageSpacing
                 break
                 
             case .fill:
-                result.origin.x = unalignedImageRect.end.x + imageSpacing
+                result.origin.x = unalignedImageRect.maxX + imageSpacing
                 result.size.width = contentRect.width - result.origin.x
                 break
             }

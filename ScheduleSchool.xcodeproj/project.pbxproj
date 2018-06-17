@@ -28,6 +28,7 @@
 		420A865C20B803BF00D80925 /* SSSystemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426353BE20B7FDBB005B1C3D /* SSSystemExtensions.swift */; };
 		420A865D20B803BF00D80925 /* SSUtilityClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426353BD20B7FDBB005B1C3D /* SSUtilityClasses.swift */; };
 		420A865F20B8045100D80925 /* SSLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426353C320B7FE2D005B1C3D /* SSLaunch.storyboard */; };
+		4228B9F820D64F2700BE272F /* SSPanInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228B9F720D64F2700BE272F /* SSPanInteractiveTransition.swift */; };
 		423BB55620B97E5C00537A2E /* SSFLWelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423BB55520B97E5C00537A2E /* SSFLWelcomeController.swift */; };
 		423BB55820B97F7700537A2E /* SSFLProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423BB55720B97F7700537A2E /* SSFLProfileController.swift */; };
 		425444E620C3D582005FF12E /* SSFLTimetableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425444E520C3D582005FF12E /* SSFLTimetableController.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4228B9F720D64F2700BE272F /* SSPanInteractiveTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPanInteractiveTransition.swift; sourceTree = "<group>"; };
 		423BB55520B97E5C00537A2E /* SSFLWelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFLWelcomeController.swift; sourceTree = "<group>"; };
 		423BB55720B97F7700537A2E /* SSFLProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFLProfileController.swift; sourceTree = "<group>"; };
 		425444E520C3D582005FF12E /* SSFLTimetableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFLTimetableController.swift; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				426353B820B7FD30005B1C3D /* SSPercentDrivenInteractiveTransition.swift */,
+				4228B9F720D64F2700BE272F /* SSPanInteractiveTransition.swift */,
 				426353B720B7FD30005B1C3D /* SSScreenEdgePanInteractiveTransition.swift */,
 			);
 			path = Interaction;
@@ -481,6 +484,7 @@
 			files = (
 				425444E820C3D6B8005FF12E /* SSFLTimetableDayControllers.swift in Sources */,
 				420A864920B803BF00D80925 /* SSReferenceExtensions.swift in Sources */,
+				4228B9F820D64F2700BE272F /* SSPanInteractiveTransition.swift in Sources */,
 				420A864A20B803BF00D80925 /* SSButton.swift in Sources */,
 				420A864C20B803BF00D80925 /* SSTextField.swift in Sources */,
 				420A864E20B803BF00D80925 /* SSBarButtonItem.swift in Sources */,

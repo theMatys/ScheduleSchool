@@ -224,7 +224,7 @@ class SSPercentDrivenInteractiveTransition: UIPercentDrivenInteractiveTransition
                 }
                 
                 // Continue the animations of the animations instance
-                animationInstance.continueAnimation(withTimingParameters: UICubicTimingParameters(animationCurve: completionCurve), durationFactor: 0.0)
+                animationInstance.startAnimation()
                 
                 // Invoke the callback methods according to the state of the animator
                 animationInstance.addCompletion { (position: UIViewAnimatingPosition) in

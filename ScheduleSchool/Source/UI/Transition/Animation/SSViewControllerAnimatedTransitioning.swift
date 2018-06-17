@@ -41,11 +41,4 @@ extension SSViewControllerAnimatedTransitioning
     {
         return interactionController?.state == .engaged
     }
-    
-    // MARK: - Initializers
-    init(interactionController: SSPercentDrivenInteractiveTransition?)
-    {
-        self.init()
-        interactionController?.delegate = self
-    }
 }

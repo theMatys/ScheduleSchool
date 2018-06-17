@@ -118,7 +118,7 @@ Let’s not waste any more time and dive right in!</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="INQ-a1-2so" kind="showDetail" id="v48-Tf-xyu"/>
+                                            <segue destination="INQ-a1-2so" kind="showDetail" identifier="ss_segue_fl_welcome_to_profile" id="v48-Tf-xyu"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -160,15 +160,18 @@ Let’s not waste any more time and dive right in!</string>
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="cContentsBottom" destination="eQN-J8-JiH" id="6Ac-kU-d3L"/>
+                        <outlet property="cContentsTop" destination="Dm2-Lp-jFo" id="9Jo-hS-2q5"/>
+                        <outlet property="grForwarder" destination="ykA-kY-e7v" id="6IZ-wP-a0f"/>
+                        <outlet property="mvBackgroundImage" destination="bDe-UP-Hc2" id="gJa-2P-ne0"/>
+                        <outlet property="mvContents" destination="wuz-XU-oMG" id="MpF-8B-2tj"/>
                         <outlet property="mvContentsBackground" destination="TMl-Ex-ynd" id="nqA-yc-GpR"/>
                         <outlet property="mvStatusBarBackground" destination="Yow-cu-M4k" id="n2k-z4-MyR"/>
                         <outlet property="mvSwipeInformer" destination="5ZE-2t-KPE" id="nOU-bj-dxP"/>
-                        <outlet property="mvTitle" destination="GEg-hd-aNo" id="AHz-Ck-gD1"/>
-                        <outlet property="mvWelcomeMessage" destination="HnT-dm-Gbo" id="dUF-id-X5M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="ykA-kY-e7v" userLabel="Forwarder Gesture Recognizer"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="ykA-kY-e7v" userLabel="Forwarder Gesture Recognizer"/>
             </objects>
             <point key="canvasLocation" x="69.599999999999994" y="115.59220389805098"/>
         </scene>
@@ -354,6 +357,15 @@ Let’s not waste any more time and dive right in!</string>
                                                     <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
                                                         <color key="value" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                        <real key="value" value="0.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                        <size key="value" width="0.0" height="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                         </subviews>
@@ -409,6 +421,10 @@ Let’s not waste any more time and dive right in!</string>
                         <viewLayoutGuide key="safeArea" id="8Kq-ks-IBL"/>
                     </view>
                     <connections>
+                        <outlet property="cContentsBottom" destination="OL4-hu-Ztm" id="xqq-v2-pmp"/>
+                        <outlet property="mvBackgroundBlur" destination="9Fc-3s-Nd1" id="Y5V-Ff-NbP"/>
+                        <outlet property="mvBackgroundImage" destination="XPh-jG-quu" id="IWB-c6-CBh"/>
+                        <outlet property="mvContents" destination="ZMi-tY-2Zc" id="l2y-88-mNv"/>
                         <outlet property="mvDescription" destination="ZbX-tY-JEh" id="cLU-xi-P5a"/>
                         <outlet property="mvFirstName" destination="rXE-4Q-00d" id="3cg-6a-ooi"/>
                         <outlet property="mvLastName" destination="wpo-a1-Dps" id="71Z-gy-Vne"/>
@@ -422,10 +438,10 @@ Let’s not waste any more time and dive right in!</string>
             </objects>
             <point key="canvasLocation" x="839" y="116"/>
         </scene>
-        <!--Timetable-->
+        <!--Timetable - Introduction-->
         <scene sceneID="DVf-vf-0kQ">
             <objects>
-                <viewController title="Timetable" id="qu2-Rz-VTZ" customClass="SSFLTimetableController" customModule="ScheduleSchool" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Timetable - Introduction" id="qu2-Rz-VTZ" customClass="SSFLTimetableController" customModule="ScheduleSchool" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="kjq-yo-mOe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -577,10 +593,10 @@ The next couple of steps will set up your timetable.</string>
             </objects>
             <point key="canvasLocation" x="1615" y="116"/>
         </scene>
-        <!--Timetable Days Navigation Controller-->
+        <!--Timetable - Days Navigation Controller-->
         <scene sceneID="ct6-G7-L4B">
             <objects>
-                <navigationController title="Timetable Days Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Jhy-Dm-Nuu" customClass="SSFLTimetableDaysNavigationController" customModule="ScheduleSchool" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController title="Timetable - Days Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Jhy-Dm-Nuu" customClass="SSFLTimetableDaysNavigationController" customModule="ScheduleSchool" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="rGX-gr-vYD">
