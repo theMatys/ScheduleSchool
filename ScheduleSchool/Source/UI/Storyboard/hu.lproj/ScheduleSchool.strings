@@ -16,6 +16,9 @@
 /* Description */
 "ZbX-tY-JEh.text" = "Kérjük, add meg a neved. Ha úgy szeretnéd, egy profilképet is beállíthatsz.";
 
+/* Short description */
+"ss_string_fl_profile_description_short" = "Kérjük, add meg a neved.";
+
 /* Profile Picture Hint */
 "xxa-gX-1zv.text" = "Az alábbi gomb megnyomásával tudsz profilképet hozzáadni.";
 

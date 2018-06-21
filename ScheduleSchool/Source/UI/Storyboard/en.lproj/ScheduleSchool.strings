@@ -16,6 +16,9 @@
 /* Description */
 "ZbX-tY-JEh.text" = "Enter your first and last name. You can also set a profile picture if you’d like to.";
 
+/* Short description */
+"ss_string_fl_profile_description_short" = "Enter your first and last name.";
+
 /* Profile Picture Hint */
 "xxa-gX-1zv.text" = "Tap the button below to add a profile picture.";
 

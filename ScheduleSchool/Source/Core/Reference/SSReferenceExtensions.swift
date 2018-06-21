@@ -198,6 +198,12 @@ extension String
         {
             return "ss_string_swipe_informer_right"
         }
+        
+        /// The localization key for the short version of the "Description" label in the "Profile" scene during the first launch.
+        static var flProfileDescriptionShort: String
+        {
+            return "ss_string_fl_profile_description_short"
+        }
     }
     
     // MARK: Segue identifiers

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -244,8 +245,9 @@ Let’s not waste any more time and dive right in!</string>
                                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="75" id="D65-jz-CSY"/>
-                                                    <constraint firstAttribute="height" constant="75" id="uRs-v8-ooI"/>
+                                                    <constraint firstAttribute="width" constant="75" id="D65-jz-CSY" userLabel="Profile Picture W"/>
+                                                    <constraint firstAttribute="width" secondItem="Mgv-Oi-aeD" secondAttribute="height" multiplier="1:1" id="MvS-34-xIp" userLabel="Profile Picture A"/>
+                                                    <constraint firstAttribute="height" constant="75" id="uRs-v8-ooI" userLabel="Profile Picture H"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -254,74 +256,85 @@ Let’s not waste any more time and dive right in!</string>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="template" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your profile" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPb-cO-2sL" userLabel="Title">
-                                                <rect key="frame" x="87.5" y="85" width="160" height="36"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your first and last name. You can also set a profile picture if you’d like to." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbX-tY-JEh" userLabel="Description">
-                                                <rect key="frame" x="0.0" y="131" width="335" height="41"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rXE-4Q-00d" userLabel="First Name Text Field" customClass="SSTextField" customModule="ScheduleSchool" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="182" width="335" height="40"/>
-                                                <color key="backgroundColor" white="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yew-2J-ATs" userLabel="Collapsed Contents">
+                                                <rect key="frame" x="0.0" y="85" width="335" height="187"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your profile" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPb-cO-2sL" userLabel="Title">
+                                                        <rect key="frame" x="87.5" y="0.0" width="160" height="36"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your first and last name. You can also set a profile picture if you’d like to." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbX-tY-JEh" userLabel="Description">
+                                                        <rect key="frame" x="0.0" y="46" width="335" height="41"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rXE-4Q-00d" userLabel="First Name Text Field" customClass="SSTextField" customModule="ScheduleSchool" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="97" width="335" height="40"/>
+                                                        <color key="backgroundColor" white="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="hgc-nA-6Zo" userLabel="First Name Text Field H"/>
+                                                        </constraints>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="next" enablesReturnKeyAutomatically="YES" textContentType="given-name"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="ss_string_first_name"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="textField_editingChanged:" destination="INQ-a1-2so" eventType="editingChanged" id="s8t-DZ-suP"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wpo-a1-Dps" userLabel="Last Name Text Field" customClass="SSTextField" customModule="ScheduleSchool" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="147" width="335" height="40"/>
+                                                        <color key="backgroundColor" white="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="fE8-vr-b92" userLabel="Last Name Text Field H"/>
+                                                        </constraints>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="family-name"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="ss_string_last_name"/>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                                                <real key="value" value="15"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="textField_editingChanged:" destination="INQ-a1-2so" eventType="editingChanged" id="FIw-gp-62f"/>
+                                                        </connections>
+                                                    </textField>
+                                                </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="hgc-nA-6Zo" userLabel="First Name Text Field H"/>
+                                                    <constraint firstAttribute="trailing" secondItem="rXE-4Q-00d" secondAttribute="trailing" id="6tp-fk-fcd" userLabel="First Name Text Field TR"/>
+                                                    <constraint firstItem="wpo-a1-Dps" firstAttribute="leading" secondItem="Yew-2J-ATs" secondAttribute="leading" id="K7f-dw-psQ" userLabel="Last Name Text Field LD"/>
+                                                    <constraint firstAttribute="trailing" secondItem="wpo-a1-Dps" secondAttribute="trailing" id="Q4K-ap-fTH" userLabel="Last Name Text Field TR"/>
+                                                    <constraint firstItem="rXE-4Q-00d" firstAttribute="leading" secondItem="Yew-2J-ATs" secondAttribute="leading" id="lKk-kN-EdY" userLabel="First Name Text Field LD"/>
                                                 </constraints>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="next" enablesReturnKeyAutomatically="YES" textContentType="given-name"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="ss_string_first_name"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="textField_editingChanged:" destination="INQ-a1-2so" eventType="editingChanged" id="s8t-DZ-suP"/>
-                                                </connections>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wpo-a1-Dps" userLabel="Last Name Text Field" customClass="SSTextField" customModule="ScheduleSchool" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="232" width="335" height="40"/>
-                                                <color key="backgroundColor" white="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="fE8-vr-b92" userLabel="Last Name Text Field H"/>
-                                                </constraints>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="family-name"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="ss_string_last_name"/>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
-                                                        <real key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                                <connections>
-                                                    <action selector="textField_editingChanged:" destination="INQ-a1-2so" eventType="editingChanged" id="FIw-gp-62f"/>
-                                                </connections>
-                                            </textField>
+                                            </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the button below to add a profile picture." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxa-gX-1zv" userLabel="Profile Picture Hint">
                                                 <rect key="frame" x="51.5" y="282" width="232.5" height="41"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -367,14 +380,14 @@ Let’s not waste any more time and dive right in!</string>
                                                         <size key="value" width="0.0" height="0.0"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="button_tapped:" destination="INQ-a1-2so" eventType="touchUpInside" id="s7z-bc-b4n"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="wpo-a1-Dps" secondAttribute="trailing" id="S8N-rJ-Yh9" userLabel="Last Name Text Field TR"/>
-                                            <constraint firstItem="wpo-a1-Dps" firstAttribute="leading" secondItem="It7-1Z-Ffe" secondAttribute="leading" id="c60-gN-ftG" userLabel="Last Name Text Field LD"/>
-                                            <constraint firstAttribute="trailing" secondItem="rXE-4Q-00d" secondAttribute="trailing" id="g9a-4g-t4n" userLabel="First Name Text Field TR"/>
-                                            <constraint firstItem="rXE-4Q-00d" firstAttribute="leading" secondItem="It7-1Z-Ffe" secondAttribute="leading" id="jYh-k9-OqZ" userLabel="First Name Text Field LD"/>
-                                            <constraint firstItem="FMi-fd-1d0" firstAttribute="width" secondItem="wpo-a1-Dps" secondAttribute="width" multiplier="3/4" id="nTQ-zZ-cUs"/>
+                                            <constraint firstItem="Mgv-Oi-aeD" firstAttribute="top" secondItem="It7-1Z-Ffe" secondAttribute="top" id="pr4-0P-frG"/>
+                                            <constraint firstItem="FMi-fd-1d0" firstAttribute="width" secondItem="rXE-4Q-00d" secondAttribute="width" multiplier="3/4" id="yaM-Ua-tOV" userLabel="Profile Picture Button W"/>
                                         </constraints>
                                     </stackView>
                                     <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mbe-VN-xxI" userLabel="Swipe Informer" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
@@ -422,16 +435,21 @@ Let’s not waste any more time and dive right in!</string>
                     </view>
                     <connections>
                         <outlet property="cContentsBottom" destination="OL4-hu-Ztm" id="xqq-v2-pmp"/>
+                        <outlet property="cProfilePictureHeight" destination="uRs-v8-ooI" id="H9h-Jo-VXn"/>
+                        <outlet property="cProfilePictureWidth" destination="D65-jz-CSY" id="z7r-Ch-yv5"/>
+                        <outlet property="cProfileStackViewTop" destination="Xoj-0D-Emq" id="rGY-WV-EXy"/>
                         <outlet property="mvBackgroundBlur" destination="9Fc-3s-Nd1" id="Y5V-Ff-NbP"/>
                         <outlet property="mvBackgroundImage" destination="XPh-jG-quu" id="IWB-c6-CBh"/>
+                        <outlet property="mvCollapsedContents" destination="Yew-2J-ATs" id="yim-NK-j69"/>
                         <outlet property="mvContents" destination="ZMi-tY-2Zc" id="l2y-88-mNv"/>
                         <outlet property="mvDescription" destination="ZbX-tY-JEh" id="cLU-xi-P5a"/>
                         <outlet property="mvFirstName" destination="rXE-4Q-00d" id="3cg-6a-ooi"/>
                         <outlet property="mvLastName" destination="wpo-a1-Dps" id="71Z-gy-Vne"/>
                         <outlet property="mvProfilePicture" destination="Mgv-Oi-aeD" id="dFv-nW-bsl"/>
+                        <outlet property="mvProfilePictureButton" destination="FMi-fd-1d0" id="DIb-DS-1Ht"/>
                         <outlet property="mvProfilePictureHint" destination="xxa-gX-1zv" id="tix-g8-GIP"/>
+                        <outlet property="mvProfileStackView" destination="It7-1Z-Ffe" id="Yf0-ff-Vnf"/>
                         <outlet property="mvSwipeInformer" destination="Mbe-VN-xxI" id="iU2-8V-uyy"/>
-                        <outlet property="mvTitle" destination="JPb-cO-2sL" id="qg2-TC-Y7c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LtR-lR-Hz9" sceneMemberID="firstResponder"/>
@@ -847,13 +865,13 @@ The next couple of steps will set up your timetable.</string>
                                                 <rect key="frame" x="19" y="0.0" width="297.5" height="66.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tuesday" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAN-5n-i4a" userLabel="Title">
-                                                        <rect key="frame" x="89" y="0.0" width="119" height="36"/>
+                                                        <rect key="frame" x="89.5" y="0.0" width="119" height="36"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How about the follow-ups on Tuesday?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxg-5v-TuK" userLabel="Description">
-                                                        <rect key="frame" x="0.0" y="46" width="297.5" height="20.5"/>
+                                                        <rect key="frame" x="0.5" y="46" width="297.5" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1226,13 +1244,13 @@ The next couple of steps will set up your timetable.</string>
                                                 <rect key="frame" x="17.5" y="0.0" width="300.5" height="87"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thursday" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jo4-LY-OSO" userLabel="Title">
-                                                        <rect key="frame" x="83.5" y="0.0" width="133" height="36"/>
+                                                        <rect key="frame" x="84" y="0.0" width="133" height="36"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How about the &quot;Bear with it, it's almost Friday&quot; day?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9S-IL-Nws" userLabel="Description">
-                                                        <rect key="frame" x="0.0" y="46" width="300.5" height="41"/>
+                                                        <rect key="frame" x="0.5" y="46" width="300.5" height="41"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
