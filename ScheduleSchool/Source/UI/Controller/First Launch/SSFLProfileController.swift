@@ -337,7 +337,6 @@ class SSFLProfileController: SSViewController, UIViewControllerTransitioningDele
     }
     
     // MARK: -
-    // MARK: -
     
     /// The animation controller which performs the animations which transition from the "Welcome" to the "Profile" scene in the first launch setup.
     class AnimatedTransitioning: NSObject, SSViewControllerAnimatedTransitioning

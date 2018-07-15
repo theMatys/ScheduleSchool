@@ -49,10 +49,10 @@ class ScheduleSchool
     
     // MARK: Functions
     
-    /// Prepares the application for the start.
+    /// Prepares the application for launch.
     ///
     /// - Parameter window: The window of the application. (If nil, the application will quit.)
-    fileprivate func start(window: UIWindow?)
+    fileprivate func launch(window: UIWindow?)
     {
         if(window == nil)
         {
@@ -96,7 +96,7 @@ internal class SSApplicationDelegate: UIResponder, UIApplicationDelegate
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
         // Prepare the application for start.
-        scheduleSchool.start(window: window)
+        scheduleSchool.launch(window: window)
         return true
     }
 

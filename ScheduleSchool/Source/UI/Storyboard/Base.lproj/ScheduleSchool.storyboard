@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -390,7 +389,7 @@ Let’s not waste any more time and dive right in!</string>
                                             <constraint firstItem="FMi-fd-1d0" firstAttribute="width" secondItem="rXE-4Q-00d" secondAttribute="width" multiplier="3/4" id="yaM-Ua-tOV" userLabel="Profile Picture Button W"/>
                                         </constraints>
                                     </stackView>
-                                    <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mbe-VN-xxI" userLabel="Swipe Informer" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000000000000004" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mbe-VN-xxI" userLabel="Swipe Informer" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="560.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -747,7 +746,7 @@ The next couple of steps will set up your timetable.</string>
                                             <constraint firstAttribute="trailing" secondItem="Shp-6x-mMX" secondAttribute="trailing" id="cTI-oD-Jv7"/>
                                         </constraints>
                                     </stackView>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t9U-fe-RH6" userLabel="Swipe Informer" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t9U-fe-RH6" userLabel="Swipe Informer" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -922,7 +921,7 @@ The next couple of steps will set up your timetable.</string>
                                             <constraint firstAttribute="trailing" secondItem="nDM-wH-zWm" secondAttribute="trailing" id="uTS-mJ-Sm6"/>
                                         </constraints>
                                     </stackView>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Phr-7f-UHQ" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Phr-7f-UHQ" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -935,7 +934,7 @@ The next couple of steps will set up your timetable.</string>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="collapsed" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAh-1N-06M" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eAh-1N-06M" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1054,13 +1053,13 @@ The next couple of steps will set up your timetable.</string>
                                                 <rect key="frame" x="55" y="0.0" width="225.5" height="66.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wednesday" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYs-BU-7O3" userLabel="Title">
-                                                        <rect key="frame" x="30" y="0.0" width="165" height="36"/>
+                                                        <rect key="frame" x="30.5" y="0.0" width="165" height="36"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The massive mid-week ones?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2J2-jF-NeY" userLabel="Description">
-                                                        <rect key="frame" x="0.0" y="46" width="225.5" height="20.5"/>
+                                                        <rect key="frame" x="0.5" y="46" width="225.5" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1111,7 +1110,7 @@ The next couple of steps will set up your timetable.</string>
                                             <constraint firstAttribute="trailing" secondItem="kgj-Z3-2MX" secondAttribute="trailing" id="bZl-vn-JQu"/>
                                         </constraints>
                                     </stackView>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffJ-p2-c6U" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ffJ-p2-c6U" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1124,7 +1123,7 @@ The next couple of steps will set up your timetable.</string>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="collapsed" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGf-SZ-f4V" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vGf-SZ-f4V" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1244,13 +1243,13 @@ The next couple of steps will set up your timetable.</string>
                                                 <rect key="frame" x="17.5" y="0.0" width="300.5" height="87"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thursday" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jo4-LY-OSO" userLabel="Title">
-                                                        <rect key="frame" x="84" y="0.0" width="133" height="36"/>
+                                                        <rect key="frame" x="83.5" y="0.0" width="133" height="36"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How about the &quot;Bear with it, it's almost Friday&quot; day?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9S-IL-Nws" userLabel="Description">
-                                                        <rect key="frame" x="0.5" y="46" width="300.5" height="41"/>
+                                                        <rect key="frame" x="0.0" y="46" width="300.5" height="41"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -1301,7 +1300,7 @@ The next couple of steps will set up your timetable.</string>
                                             <constraint firstItem="yPM-by-t10" firstAttribute="leading" secondItem="sGY-dP-2jl" secondAttribute="leading" id="RBK-T3-NjX"/>
                                         </constraints>
                                     </stackView>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K9M-A8-ENK" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K9M-A8-ENK" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1314,7 +1313,7 @@ The next couple of steps will set up your timetable.</string>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="collapsed" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNe-fD-7yO" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNe-fD-7yO" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1491,7 +1490,7 @@ The next couple of steps will set up your timetable.</string>
                                             <constraint firstAttribute="trailing" secondItem="pMq-Mf-hW5" secondAttribute="trailing" id="taG-OY-CA6"/>
                                         </constraints>
                                     </stackView>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A8c-is-xzS" userLabel="Swipe Informer Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A8c-is-xzS" userLabel="Swipe Informer Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1504,7 +1503,7 @@ The next couple of steps will set up your timetable.</string>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="collapsed" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1i-fs-drT" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1i-fs-drT" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1681,7 +1680,7 @@ The next couple of steps will set up your timetable.</string>
                                             <constraint firstAttribute="trailing" secondItem="mOu-Ad-9RJ" secondAttribute="trailing" id="kPa-tU-dSI"/>
                                         </constraints>
                                     </stackView>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uPk-oA-QMV" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uPk-oA-QMV" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1694,7 +1693,7 @@ The next couple of steps will set up your timetable.</string>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="collapsed" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sEf-TO-FzG" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sEf-TO-FzG" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1868,7 +1867,7 @@ The next couple of steps will set up your timetable.</string>
                                             <constraint firstItem="o8x-2O-K7M" firstAttribute="leading" secondItem="vjf-Tp-QMq" secondAttribute="leading" id="qCR-DQ-Hir"/>
                                         </constraints>
                                     </stackView>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePG-rX-zcB" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ePG-rX-zcB" userLabel="Swipe Informer Forward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
@@ -1881,7 +1880,7 @@ The next couple of steps will set up your timetable.</string>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="collapsed" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FQa-nM-Age" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
+                                    <view alpha="0.80000001192092896" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FQa-nM-Age" userLabel="Swipe Informer Backward" customClass="SSFLSwipeInformerView" customModule="ScheduleSchool" customModuleProvider="target">
                                         <rect key="frame" x="20" y="543.5" width="335" height="20"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
